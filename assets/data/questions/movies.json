@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Qual o nome do protagonista de 'O Senhor dos Anéis'?",
+    "answers": [
+      "Frodo",
+      "Sam",
+      "Aragorn",
+      "Legolas",
+      "Gandalf",
+      "Boromir"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Frodo Bolseiro é o portador do Anel."
+  },
+  {
+    "id": 2,
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Em qual filme aparece o personagem 'Darth Vader'?",
+    "answers": [
+      "Star Wars",
+      "Star Trek",
+      "O Senhor dos Anéis",
+      "Matrix",
+      "Avatar",
+      "Interestelar"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Darth Vader é um dos principais vilões da franquia Star Wars."
+  },
+  {
+    "id": 3,
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Qual é o nome do ninja protagonista do anime 'Naruto'?",
+    "answers": [
+      "Naruto Uzumaki",
+      "Sasuke Uchiha",
+      "Kakashi Hatake",
+      "Sakura Haruno",
+      "Jiraiya",
+      "Orochimaru"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Naruto Uzumaki é o personagem principal do anime Naruto."
+  },
+  {
+    "id": 4,
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Qual o nome do vilão principal em 'Harry Potter'?",
+    "answers": [
+      "Voldemort",
+      "Bellatrix Lestrange",
+      "Lúcio Malfoy",
+      "Severus Snape",
+      "Cornelius Fudge",
+      "Dobby"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lord Voldemort é o antagonista da série Harry Potter."
+  },
+  {
+    "id": 5,
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Qual o nome do herói principal de 'One Piece'?",
+    "answers": [
+      "Monkey D. Luffy",
+      "Roronoa Zoro",
+      "Nami",
+      "Usopp",
+      "Sanji",
+      "Tony Tony Chopper"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Monkey D. Luffy é o capitão dos Piratas do Chapéu de Palha."
+  },
+  {
+    "id": 6,
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Em qual filme da Marvel aparece o 'Thanós' como vilão principal?",
+    "answers": [
+      "Vingadores: Guerra Infinita",
+      "Vingadores: Era de Ultron",
+      "Homem de Ferro 3",
+      "Capitão América: Guerra Civil",
+      "Thor: Ragnarok",
+      "Pantera Negra"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Thanos é o principal antagonista em Vingadores: Guerra Infinita e Ultimato."
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "category": "games",
+    "difficulty": "easy",
+    "question": "Qual empresa desenvolveu 'The Legend of Zelda'?",
+    "answers": ["Nintendo", "Sony", "Microsoft", "Sega", "Capcom", "Konami"],
+    "correctAnswer": 0,
+    "explanation": "The Legend of Zelda é uma franquia da Nintendo."
+  },
+  {
+    "id": 2,
+    "category": "games",
+    "difficulty": "easy",
+    "question": "Em 'Minecraft', qual é o nome do chefe do Nether?",
+    "answers": ["Wither", "Ender Dragon", "Blaze", "Ghast", "Piglin", "Zombified Piglin"],
+    "correctAnswer": 0,
+    "explanation": "O Wither é o chefe do Nether."
+  },
+  {
+    "id": 3,
+    "category": "games",
+    "difficulty": "medium",
+    "question": "Qual é o protagonista de 'Hollow Knight'?",
+    "answers": ["The Knight", "Hornet", "The Hollow", "The King", "The Vessel", "The Pale King"],
+    "correctAnswer": 0,
+    "explanation": "O jogador controla The Knight."
+  },
+  {
+    "id": 4,
+    "category": "games",
+    "difficulty": "medium",
+    "question": "Qual é o nome do mundo principal em 'The Witcher'?",
+    "answers": ["The Continent", "Skyrim", "Tamriel", "Midgard", "Azeroth", "Westeros"],
+    "correctAnswer": 0,
+    "explanation": "Os jogos se passam no continente."
+  },
+  {
+    "id": 5,
+    "category": "games",
+    "difficulty": "hard",
+    "question": "Em 'Dark Souls', qual é o nome do Cavaleiro de Astora?",
+    "answers": ["Oscar", "Solaire", "Artorias", "Ornstein", "Smough", "Gwyn"],
+    "correctAnswer": 0,
+    "explanation": "Oscar é o Cavaleiro de Astora."
+  },
+  {
+    "id": 6,
+    "category": "games",
+    "difficulty": "hard",
+    "question": "Qual é o nome da inteligência artificial em 'Portal'?",
+    "answers": ["GLaDOS", "Cave Johnson", "Wheatley", "Atlas", "P-Body", "Turret"],
+    "correctAnswer": 0,
+    "explanation": "GLaDOS é a IA antagonista."
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "category": "anime",
+    "difficulty": "easy",
+    "question": "Qual é o nome do protagonista de 'Naruto'?",
+    "answers": ["Naruto Uzumaki", "Sasuke Uchiha", "Sakura Haruno", "Kakashi Hatake", "Jiraiya", "Orochimaru"],
+    "correctAnswer": 0,
+    "explanation": "Naruto Uzumaki é o personagem principal."
+  },
+  {
+    "id": 2,
+    "category": "anime",
+    "difficulty": "easy",
+    "question": "Em qual anime aparece o personagem 'Goku'?",
+    "answers": ["Dragon Ball", "One Piece", "Naruto", "Bleach", "Hunter x Hunter", "Fairy Tail"],
+    "correctAnswer": 0,
+    "explanation": "Goku é o protagonista de Dragon Ball."
+  },
+  {
+    "id": 3,
+    "category": "anime",
+    "difficulty": "medium",
+    "question": "Qual é o nome do titã de Eren Jaeger em 'Shingeki no Kyojin'?",
+    "answers": ["Titã de Ataque", "Titã Fêmea", "Titã Bestial", "Titã Colossal", "Titã Blindado", "Titã Martelo de Guerra"],
+    "correctAnswer": 0,
+    "explanation": "Eren possui o Titã de Ataque."
+  },
+  {
+    "id": 4,
+    "category": "anime",
+    "difficulty": "medium",
+    "question": "Qual é o nome da nave principal em 'Cowboy Bebop'?",
+    "answers": ["Bebop", "Swordfish II", "Red Tail", "Hammerhead", "Tiger Moth", "Faye's Ship"],
+    "correctAnswer": 0,
+    "explanation": "A nave dos protagonistas se chama Bebop."
+  },
+  {
+    "id": 5,
+    "category": "anime",
+    "difficulty": "hard",
+    "question": "Em 'Neon Genesis Evangelion', qual é o nome do primeiro Anjo?",
+    "answers": ["Adam", "Lilith", "Sachiel", "Shamshel", "Ramiel", "Gaghiel"],
+    "correctAnswer": 0,
+    "explanation": "Adam é o Primeiro Anjo."
+  },
+  {
+    "id": 6,
+    "category": "anime",
+    "difficulty": "hard",
+    "question": "Quem é o autor do mangá 'Berserk'?",
+    "answers": ["Kentaro Miura", "Eiichiro Oda", "Masashi Kishimoto", "Tite Kubo", "Hajime Isayama", "Yoshihiro Togashi"],
+    "correctAnswer": 0,
+    "explanation": "Kentaro Miura criou Berserk."
+  }
+]
