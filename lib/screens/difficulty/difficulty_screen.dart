@@ -4,8 +4,8 @@ import '../../models/question.dart';
 import '../quiz/quiz_screen.dart';
 
 class DifficultyScreen extends StatelessWidget {
-  final String categoryTitle;   // Nome exibido (ex: "Filmes", "Animes", "Mix Nerd")
-  final List<String> categoryKeys; // Chaves das categorias (ex: ["movies"] ou ["movies","anime","games"])
+  final String categoryTitle;
+  final List<String> categoryKeys;
   final String subtitle;
 
   const DifficultyScreen({
@@ -18,69 +18,80 @@ class DifficultyScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
-      appBar: AppBar(
-        backgroundColor: Colors.black,
-        foregroundColor: Colors.white,
-        elevation: 0,
-        title: Text(
-          categoryTitle,
-          style: const TextStyle(fontWeight: FontWeight.bold),
+      body: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('assets/images/quiz_nerd_bg.png'),
+            fit: BoxFit.cover,
+            colorFilter: ColorFilter.mode(
+              Colors.black.withOpacity(0.5),
+              BlendMode.darken,
+            ),
+          ),
         ),
-        leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
-          onPressed: () => Navigator.pop(context),
-        ),
-      ),
-      body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.all(16.0),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              const SizedBox(height: 16),
-              Text(
-                subtitle,
-                style: TextStyle(
-                  fontSize: 20,
-                  color: Colors.grey[300],
+        child: SafeArea(
+          child: Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                IconButton(
+                  icon: const Icon(Icons.arrow_back, color: Colors.white),
+                  onPressed: () => Navigator.pop(context),
                 ),
-              ),
-              const SizedBox(height: 40),
-              Center(
-                child: Column(
-                  children: [
-                    _buildDifficultyButton(
-                      context: context,
-                      icon: '🟢',
-                      label: 'Fácil',
-                      description: 'Perguntas para começar',
-                      color: Colors.green,
-                      difficulty: 'easy',
-                    ),
-                    const SizedBox(height: 16),
-                    _buildDifficultyButton(
-                      context: context,
-                      icon: '🟡',
-                      label: 'Médio',
-                      description: 'Agora ficou interessante...',
-                      color: Colors.amber,
-                      difficulty: 'medium',
-                    ),
-                    const SizedBox(height: 16),
-                    _buildDifficultyButton(
-                      context: context,
-                      icon: '🔴',
-                      label: 'Difícil',
-                      description: 'Só para quem manja mesmo!',
-                      color: Colors.red,
-                      difficulty: 'hard',
-                    ),
-                  ],
+                const SizedBox(height: 16),
+                Text(
+                  categoryTitle,
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 32,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
-              ),
-              const Spacer(),
-            ],
+                const SizedBox(height: 8),
+                Text(
+                  subtitle,
+                  style: TextStyle(
+                    fontSize: 18,
+                    color: Colors.grey[300],
+                  ),
+                ),
+                const SizedBox(height: 40),
+                Center(
+                  child: Column(
+                    children: [
+                      _buildDifficultyButton(
+                        context: context,
+                        icon: '🟢',
+                        label: 'Fácil',
+                        description: 'Perguntas para começar',
+                        color: Colors.green.shade600,
+                        difficulty: 'easy',
+                      ),
+                      const SizedBox(height: 16),
+                      _buildDifficultyButton(
+                        context: context,
+                        icon: '🟡',
+                        label: 'Médio',
+                        description: 'Agora ficou interessante...',
+                        color: Colors.orange.shade600,
+                        difficulty: 'medium',
+                      ),
+                      const SizedBox(height: 16),
+                      _buildDifficultyButton(
+                        context: context,
+                        icon: '🔴',
+                        label: 'Difícil',
+                        description: 'Só para quem manja mesmo!',
+                        color: Colors.red.shade600,
+                        difficulty: 'hard',
+                      ),
+                    ],
+                  ),
+                ),
+                const Spacer(),
+              ],
+            ),
           ),
         ),
       ),
@@ -102,13 +113,14 @@ class DifficultyScreen extends StatelessWidget {
           _startQuiz(context, difficulty);
         },
         style: ElevatedButton.styleFrom(
-          backgroundColor: Colors.grey[850],
+          backgroundColor: color,
           foregroundColor: Colors.white,
           padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12),
           ),
-          elevation: 0,
+          elevation: 8,
+          shadowColor: color.withOpacity(0.5),
         ),
         child: Row(
           children: [
@@ -132,7 +144,7 @@ class DifficultyScreen extends StatelessWidget {
                     description,
                     style: TextStyle(
                       fontSize: 14,
-                      color: Colors.grey[400],
+                      color: Colors.white.withOpacity(0.8),
                     ),
                   ),
                 ],
@@ -140,7 +152,7 @@ class DifficultyScreen extends StatelessWidget {
             ),
             Icon(
               Icons.arrow_forward_ios,
-              color: Colors.grey[500],
+              color: Colors.white.withOpacity(0.7),
               size: 16,
             ),
           ],
@@ -162,7 +174,7 @@ class DifficultyScreen extends StatelessWidget {
       final service = QuestionService();
       List<Question> questions = await service.loadQuestionsByKeys(categoryKeys, difficulty);
 
-      Navigator.pop(context); // fecha diálogo
+      Navigator.pop(context);
 
       if (questions.isEmpty) {
         ScaffoldMessenger.of(context).showSnackBar(
@@ -171,7 +183,7 @@ class DifficultyScreen extends StatelessWidget {
         return;
       }
 
-      List<ProcessedQuestion> processed = service.prepareQuestions(questions, maxQuestions: 10);
+      List<ProcessedQuestion> processed = service.prepareQuestions(questions);
 
       Navigator.push(
         context,

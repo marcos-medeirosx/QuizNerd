@@ -1,98 +1,1502 @@
 [
-  {
-    "id": 1,
-    "category": "movies",
-    "difficulty": "easy",
-    "question": "Qual o nome do protagonista de 'O Senhor dos Anéis'?",
-    "answers": [
-      "Frodo",
-      "Sam",
-      "Aragorn",
-      "Legolas",
-      "Gandalf",
-      "Boromir"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Frodo Bolseiro é o portador do Anel."
-  },
-  {
-    "id": 2,
-    "category": "movies",
-    "difficulty": "easy",
-    "question": "Em qual filme aparece o personagem 'Darth Vader'?",
-    "answers": [
-      "Star Wars",
-      "Star Trek",
-      "O Senhor dos Anéis",
-      "Matrix",
-      "Avatar",
-      "Interestelar"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Darth Vader é um dos principais vilões da franquia Star Wars."
-  },
-  {
-    "id": 3,
-    "category": "movies",
-    "difficulty": "easy",
-    "question": "Qual é o nome do ninja protagonista do anime 'Naruto'?",
-    "answers": [
-      "Naruto Uzumaki",
-      "Sasuke Uchiha",
-      "Kakashi Hatake",
-      "Sakura Haruno",
-      "Jiraiya",
-      "Orochimaru"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Naruto Uzumaki é o personagem principal do anime Naruto."
-  },
-  {
-    "id": 4,
-    "category": "movies",
-    "difficulty": "easy",
-    "question": "Qual o nome do vilão principal em 'Harry Potter'?",
-    "answers": [
-      "Voldemort",
-      "Bellatrix Lestrange",
-      "Lúcio Malfoy",
-      "Severus Snape",
-      "Cornelius Fudge",
-      "Dobby"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Lord Voldemort é o antagonista da série Harry Potter."
-  },
-  {
-    "id": 5,
-    "category": "movies",
-    "difficulty": "easy",
-    "question": "Qual o nome do herói principal de 'One Piece'?",
-    "answers": [
-      "Monkey D. Luffy",
-      "Roronoa Zoro",
-      "Nami",
-      "Usopp",
-      "Sanji",
-      "Tony Tony Chopper"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Monkey D. Luffy é o capitão dos Piratas do Chapéu de Palha."
-  },
-  {
-    "id": 6,
-    "category": "movies",
-    "difficulty": "easy",
-    "question": "Em qual filme da Marvel aparece o 'Thanós' como vilão principal?",
-    "answers": [
-      "Vingadores: Guerra Infinita",
-      "Vingadores: Era de Ultron",
-      "Homem de Ferro 3",
-      "Capitão América: Guerra Civil",
-      "Thor: Ragnarok",
-      "Pantera Negra"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Thanos é o principal antagonista em Vingadores: Guerra Infinita e Ultimato."
-  }
+{
+"id": 1,
+"category": "movies",
+"difficulty": "easy",
+"question": "Em 'Titanic', qual é o nome da protagonista que se apaixona por Jack?",
+"answers": [
+"Rose DeWitt Bukater",
+"Elizabeth Swann",
+"Rachel Green",
+"Amélie Poulain",
+"Bella Swan",
+"Mia Wallace"
+],
+"correctAnswer": 0
+},
+{
+"id": 2,
+"category": "movies",
+"difficulty": "easy",
+"question": "Qual é o nome do protagonista de 'Harry Potter'?",
+"answers": [
+"Harry Potter",
+"Ron Weasley",
+"Draco Malfoy",
+"Neville Longbottom",
+"Cedrico Diggory",
+"Sirius Black"
+],
+"correctAnswer": 0
+},
+{
+"id": 3,
+"category": "movies",
+"difficulty": "easy",
+"question": "Em 'O Senhor dos Anéis', qual é o nome do hobbit que recebe a missão de destruir o Um Anel?",
+"answers": [
+"Frodo Bolseiro",
+"Samwise Gamgee",
+"Bilbo Bolseiro",
+"Merry",
+"Pippin",
+"Aragorn"
+],
+"correctAnswer": 0
+},
+{
+"id": 4,
+"category": "movies",
+"difficulty": "easy",
+"question": "Qual é o nome do brinquedo cowboy de 'Toy Story'?",
+"answers": [
+"Woody",
+"Buzz Lightyear",
+"Andy",
+"Rex",
+"Slinky",
+"Jessie"
+],
+"correctAnswer": 0
+},
+{
+"id": 5,
+"category": "movies",
+"difficulty": "easy",
+"question": "Em 'Procurando Nemo', qual é o nome do pai do peixe que procura seu filho?",
+"answers": [
+"Marlin",
+"Dory",
+"Gill",
+"Bruce",
+"Nemo",
+"Bubbles"
+],
+"correctAnswer": 0
+},
+{
+"id": 6,
+"category": "movies",
+"difficulty": "easy",
+"question": "Qual é o nome do ogro protagonista de 'Shrek'?",
+"answers": [
+"Shrek",
+"Fiona",
+"Burro",
+"Lord Farquaad",
+"Gato de Botas",
+"Dragão"
+],
+"correctAnswer": 0
+},
+{
+"id": 7,
+"category": "movies",
+"difficulty": "easy",
+"question": "Em 'Frozen', qual é o nome da irmã de Elsa?",
+"answers": [
+"Anna",
+"Rapunzel",
+"Moana",
+"Merida",
+"Jasmine",
+"Tiana"
+],
+"correctAnswer": 0
+},
+{
+"id": 8,
+"category": "movies",
+"difficulty": "easy",
+"question": "Qual personagem da Marvel é conhecido como Homem de Ferro?",
+"answers": [
+"Tony Stark",
+"Steve Rogers",
+"Bruce Banner",
+"Peter Parker",
+"Clint Barton",
+"Stephen Strange"
+],
+"correctAnswer": 0
+},
+{
+"id": 9,
+"category": "movies",
+"difficulty": "easy",
+"question": "Qual é o nome do super-herói interpretado por Christopher Reeve nos filmes clássicos do Superman?",
+"answers": [
+"Superman",
+"Batman",
+"Flash",
+"Lanterna Verde",
+"Aquaman",
+"Shazam"
+],
+"correctAnswer": 0
+},
+{
+"id": 10,
+"category": "movies",
+"difficulty": "easy",
+"question": "Em 'Jurassic Park', qual tipo de animal os cientistas conseguem recriar?",
+"answers": [
+"Dinossauros",
+"Mamutes",
+"Dragões",
+"Tigres-dentes-de-sabre",
+"Robôs",
+"Alienígenas"
+],
+"correctAnswer": 0
+},
+{
+"id": 11,
+"category": "movies",
+"difficulty": "easy",
+"question": "Qual é o nome do protagonista de 'Piratas do Caribe' interpretado por Johnny Depp?",
+"answers": [
+"Jack Sparrow",
+"Will Turner",
+"Hector Barbossa",
+"Davy Jones",
+"James Norrington",
+"Bootstrap Bill"
+],
+"correctAnswer": 0
+},
+{
+"id": 12,
+"category": "movies",
+"difficulty": "easy",
+"question": "Em 'Os Vingadores', qual grupo de super-heróis se reúne para enfrentar Loki?",
+"answers": [
+"Os Vingadores",
+"Os Guardiões da Galáxia",
+"Os X-Men",
+"A Liga da Justiça",
+"Os Eternos",
+"Os Defensores"
+],
+"correctAnswer": 0
+},
+{
+"id": 13,
+"category": "movies",
+"difficulty": "easy",
+"question": "Qual é o nome da cidade onde Bruce Wayne vive?",
+"answers": [
+"Gotham City",
+"Metropolis",
+"Star City",
+"Central City",
+"Blüdhaven",
+"Coast City"
+],
+"correctAnswer": 0
+},
+{
+"id": 14,
+"category": "movies",
+"difficulty": "easy",
+"question": "Qual é o nome do vilão de 'O Rei Leão' que é irmão de Mufasa?",
+"answers": [
+"Scar",
+"Simba",
+"Zazu",
+"Timon",
+"Pumba",
+"Rafiki"
+],
+"correctAnswer": 0
+},
+{
+"id": 15,
+"category": "movies",
+"difficulty": "easy",
+"question": "Em 'Aladdin', qual é o nome do tigre de estimação da princesa Jasmine?",
+"answers": [
+"Rajah",
+"Abu",
+"Genie",
+"Iago",
+"Jafar",
+"Sultan"
+],
+"correctAnswer": 0
+},
+{
+"id": 16,
+"category": "movies",
+"difficulty": "easy",
+"question": "Qual é o nome do personagem principal de 'Deadpool'?",
+"answers": [
+"Wade Wilson",
+"Logan",
+"Peter Quill",
+"Scott Lang",
+"Eddie Brock",
+"Frank Castle"
+],
+"correctAnswer": 0
+},
+{
+"id": 17,
+"category": "movies",
+"difficulty": "easy",
+"question": "Em 'Avatar', qual é o nome do povo azul que vive em Pandora?",
+"answers": [
+"Na'vi",
+"Kryptorianos",
+"Wakandanos",
+"Skrulls",
+"Asgardianos",
+"Kree"
+],
+"correctAnswer": 0
+},
+{
+"id": 18,
+"category": "movies",
+"difficulty": "easy",
+"question": "Qual é o nome do personagem principal de 'O Máskara' interpretado por Jim Carrey?",
+"answers": [
+"Stanley Ipkiss",
+"Ace Ventura",
+"Edward Scissorhands",
+"Lloyd Christmas",
+"Bruce Nolan",
+"Truman Burbank"
+],
+"correctAnswer": 0
+},
+{
+"id": 19,
+"category": "movies",
+"difficulty": "easy",
+"question": "Em 'Homem-Aranha', qual é o nome verdadeiro do herói?",
+"answers": [
+"Peter Parker",
+"Miles Morales",
+"Harry Osborn",
+"Eddie Brock",
+"Gwen Stacy",
+"Otto Octavius"
+],
+"correctAnswer": 0
+},
+{
+"id": 20,
+"category": "movies",
+"difficulty": "easy",
+"question": "Qual é o nome do personagem principal de 'John Wick'?",
+"answers": [
+"John Wick",
+"Jason Bourne",
+"Ethan Hunt",
+"Bryan Mills",
+"Frank Martin",
+"Robert McCall"
+],
+"correctAnswer": 0
+},
+{
+"id": 21,
+"category": "movies",
+"difficulty": "easy",
+"question": "Em 'O Diabo Veste Prada', qual é o nome da poderosa editora interpretada por Meryl Streep?",
+"answers": [
+"Miranda Priestly",
+"Andy Sachs",
+"Emily Charlton",
+"Serena van der Woodsen",
+"Vivian Ward",
+"Rachel Green"
+],
+"correctAnswer": 0
+},
+{
+"id": 22,
+"category": "movies",
+"difficulty": "easy",
+"question": "Qual é o nome do leão protagonista de 'O Rei Leão'?",
+"answers": [
+"Simba",
+"Mufasa",
+"Scar",
+"Kovu",
+"Timon",
+"Pumba"
+],
+"correctAnswer": 0
+},
+{
+"id": 23,
+"category": "movies",
+"difficulty": "easy",
+"question": "Em 'Monstros S.A.', qual é o nome do grande monstro azul?",
+"answers": [
+"Sulley",
+"Mike",
+"Randall",
+"Boo",
+"Roz",
+"Waternoose"
+],
+"correctAnswer": 0
+},
+{
+"id": 24,
+"category": "movies",
+"difficulty": "easy",
+"question": "Qual é o nome da personagem principal de 'Jogos Vorazes'?",
+"answers": [
+"Katniss Everdeen",
+"Tris Prior",
+"Bella Swan",
+"Hermione Granger",
+"Clary Fray",
+"Daenerys Targaryen"
+],
+"correctAnswer": 0
+},
+{
+"id": 25,
+"category": "movies",
+"difficulty": "easy",
+"question": "Qual é o nome do robô protagonista de 'WALL-E'?",
+"answers": [
+"WALL-E",
+"EVE",
+"AUTO",
+"MO",
+"M-O",
+"HAL"
+],
+"correctAnswer": 0
+},
+{
+"id": 26,
+"category": "movies",
+"difficulty": "easy",
+"question": "Em 'Kung Fu Panda', qual animal é Po?",
+"answers": [
+"Panda",
+"Tigre",
+"Macaco",
+"Guaxinim",
+"Urso",
+"Lobo"
+],
+"correctAnswer": 0
+},
+{
+"id": 27,
+"category": "movies",
+"difficulty": "easy",
+"question": "Qual é o nome da princesa protagonista de 'Valente'?",
+"answers": [
+"Merida",
+"Elsa",
+"Moana",
+"Anna",
+"Raya",
+"Aurora"
+],
+"correctAnswer": 0
+},
+{
+"id": 28,
+"category": "movies",
+"difficulty": "easy",
+"question": "Em 'Moana', qual é o nome do semideus que acompanha a protagonista?",
+"answers": [
+"Maui",
+"Tamatoa",
+"Hei Hei",
+"Tui",
+"Te Fiti",
+"Chief Tui"
+],
+"correctAnswer": 0
+},
+{
+"id": 29,
+"category": "movies",
+"difficulty": "easy",
+"question": "Qual é o nome do protagonista de 'O Senhor dos Anéis' que interpreta Aragorn?",
+"answers": [
+"Aragorn",
+"Boromir",
+"Legolas",
+"Gimli",
+"Gandalf",
+"Theoden"
+],
+"correctAnswer": 0
+},
+{
+"id": 30,
+"category": "movies",
+"difficulty": "easy",
+"question": "Em 'Interestelar', qual é a profissão de Cooper no início do filme?",
+"answers": [
+"Piloto e ex-engenheiro",
+"Médico",
+"Professor",
+"Militar",
+"Astrônomo",
+"Jornalista"
+],
+"correctAnswer": 0
+},
+{
+"id": 31,
+"category": "movies",
+"difficulty": "easy",
+"question": "Qual é o nome do cientista interpretado por Robert Downey Jr. em 'Oppenheimer'?",
+"answers": [
+"Lewis Strauss",
+"J. Robert Oppenheimer",
+"Albert Einstein",
+"Enrico Fermi",
+"Ernest Lawrence",
+"Richard Feynman"
+],
+"correctAnswer": 1
+},
+{
+"id": 32,
+"category": "movies",
+"difficulty": "easy",
+"question": "Qual é o nome da boneca protagonista de 'Barbie'?",
+"answers": [
+"Barbie",
+"Gloria",
+"Midge",
+"Skipper",
+"Allan",
+"Ken"
+],
+"correctAnswer": 0
+},
+{
+"id": 33,
+"category": "movies",
+"difficulty": "easy",
+"question": "Em 'As Branquelas', quais personagens Marcus e Kevin Wilson interpretam disfarçados?",
+"answers": [
+"Brittany e Tiffany Wilson",
+"Chanel e Dorinda",
+"Ashley e Megan Wilson",
+"Karen e Lisa Wilson",
+"Maya e Tori Wilson",
+"Heather e Nikki Wilson"
+],
+"correctAnswer": 0
+},
+{
+"id": 34,
+"category": "movies",
+"difficulty": "easy",
+"question": "Qual é o nome do rato cozinheiro em 'Ratatouille'?",
+"answers": [
+"Remy",
+"Emile",
+"Linguini",
+"Anton",
+"Skinner",
+"Django"
+],
+"correctAnswer": 0
+},
+{
+"id": 35,
+"category": "movies",
+"difficulty": "easy",
+"question": "Qual é o nome do personagem de 'O Senhor dos Anéis' conhecido por usar um arco?",
+"answers": [
+"Legolas",
+"Gimli",
+"Boromir",
+"Aragorn",
+"Gandalf",
+"Frodo"
+],
+"correctAnswer": 0
+},
+{
+"id": 36,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'Matrix', qual é o nome da nave comandada por Morpheus?",
+"answers": [
+"Nabucodonosor",
+"Icarus",
+"Nebula",
+"Osiris",
+"Hammer",
+"Logos"
+],
+"correctAnswer": 0
+},
+{
+"id": 37,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'O Cavaleiro das Trevas', qual é o verdadeiro nome do vilão Coringa?",
+"answers": [
+"O filme não revela um nome verdadeiro",
+"Jack Napier",
+"Arthur Fleck",
+"Jerome Valeska",
+"Harvey Dent",
+"Edward Nygma"
+],
+"correctAnswer": 0
+},
+{
+"id": 38,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'Inception', qual objeto Leonardo DiCaprio usa como seu totem?",
+"answers": [
+"Um pião",
+"Uma moeda",
+"Um anel",
+"Um relógio",
+"Uma chave",
+"Um dado"
+],
+"correctAnswer": 0
+},
+{
+"id": 39,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'Interestelar', qual é o nome do buraco negro que a equipe de Cooper investiga?",
+"answers": [
+"Gargantua",
+"Endurance",
+"Miller",
+"Mann",
+"TARS",
+"Romilly"
+],
+"correctAnswer": 0
+},
+{
+"id": 40,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'Harry Potter e a Pedra Filosofal', qual é o nome da escola onde Harry estuda?",
+"answers": [
+"Hogwarts",
+"Beauxbatons",
+"Durmstrang",
+"Ilvermorny",
+"Azakaban",
+"Gringotes"
+],
+"correctAnswer": 0
+},
+{
+"id": 41,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'Harry Potter', qual é o nome do banco dos bruxos?",
+"answers": [
+"Gringotes",
+"Hogwarts",
+"Floreios e Borrões",
+"Madame Malkin",
+"O Três Vassouras",
+"Ministerial Bank"
+],
+"correctAnswer": 0
+},
+{
+"id": 42,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'O Senhor dos Anéis', qual é o nome da espada que é reforjada para Aragorn?",
+"answers": [
+"Andúril",
+"Glamdring",
+"Sting",
+"Narsil",
+"Orcrist",
+"Hadhafang"
+],
+"correctAnswer": 0
+},
+{
+"id": 43,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'Vingadores: Guerra Infinita', quantas Joias do Infinito Thanos procura reunir?",
+"answers": [
+"Seis",
+"Quatro",
+"Cinco",
+"Sete",
+"Oito",
+"Três"
+],
+"correctAnswer": 0
+},
+{
+"id": 44,
+"category": "movies",
+"difficulty": "medium",
+"question": "Qual é o nome da Joia do Infinito que fica na testa de Visão?",
+"answers": [
+"Joia da Mente",
+"Joia do Espaço",
+"Joia do Tempo",
+"Joia do Poder",
+"Joia da Realidade",
+"Joia da Alma"
+],
+"correctAnswer": 0
+},
+{
+"id": 45,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'Guardiões da Galáxia', qual é o nome da nave de Peter Quill?",
+"answers": [
+"Milano",
+"Benatar",
+"Ravager",
+"Nova One",
+"Dark Aster",
+"Sanctuary"
+],
+"correctAnswer": 0
+},
+{
+"id": 46,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'Homem de Ferro', qual é o nome da inteligência artificial criada para ajudar Tony Stark?",
+"answers": [
+"JARVIS",
+"FRIDAY",
+"ULTRON",
+"KAREN",
+"EDITH",
+"HOMER"
+],
+"correctAnswer": 0
+},
+{
+"id": 47,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'Pantera Negra', qual é o nome do país fictício governado por T'Challa?",
+"answers": [
+"Wakanda",
+"Latveria",
+"Genosha",
+"Sokovia",
+"Talokan",
+"Zamunda"
+],
+"correctAnswer": 0
+},
+{
+"id": 48,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'Homem-Aranha 2', qual personagem se torna o vilão Doutor Octopus?",
+"answers": [
+"Otto Octavius",
+"Norman Osborn",
+"Harry Osborn",
+"Adrian Toomes",
+"Quentin Beck",
+"Curt Connors"
+],
+"correctAnswer": 0
+},
+{
+"id": 49,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'Coringa' (2019), qual é o nome verdadeiro do personagem interpretado por Joaquin Phoenix?",
+"answers": [
+"Arthur Fleck",
+"Jack Napier",
+"Bruce Wayne",
+"Harvey Dent",
+"Edward Nygma",
+"Oswald Cobblepot"
+],
+"correctAnswer": 0
+},
+{
+"id": 50,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'Mad Max: Estrada da Fúria', qual é o nome da guerreira interpretada por Charlize Theron?",
+"answers": [
+"Imperatriz Furiosa",
+"Hope",
+"Toast",
+"Capable",
+"Angharad",
+"Cheedo"
+],
+"correctAnswer": 0
+},
+{
+"id": 51,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'Gladiador', qual é o nome do protagonista interpretado por Russell Crowe?",
+"answers": [
+"Maximus",
+"Commodus",
+"Proximo",
+"Lucius",
+"Juba",
+"Cassius"
+],
+"correctAnswer": 0
+},
+{
+"id": 52,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'O Exterminador do Futuro 2', qual é o modelo do robô que protege John Connor?",
+"answers": [
+"T-800",
+"T-1000",
+"TX",
+"T-600",
+"T-3000",
+"T-850"
+],
+"correctAnswer": 0
+},
+{
+"id": 53,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'De Volta para o Futuro', qual é o nome do cientista que constrói a máquina do tempo?",
+"answers": [
+"Emmett Brown",
+"Marty McFly",
+"George McFly",
+"Biff Tannen",
+"Doc Brown Jr.",
+"Clara Clayton"
+],
+"correctAnswer": 0
+},
+{
+"id": 54,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'De Volta para o Futuro', qual é o carro usado como máquina do tempo?",
+"answers": [
+"DeLorean DMC-12",
+"Chevrolet Camaro",
+"Ford Mustang",
+"Porsche 911",
+"Dodge Charger",
+"Pontiac Firebird"
+],
+"correctAnswer": 0
+},
+{
+"id": 55,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'A Origem', qual é o nome do protagonista interpretado por Leonardo DiCaprio?",
+"answers": [
+"Dom Cobb",
+"Arthur",
+"Eames",
+"Robert Fischer",
+"Saito",
+"Miles"
+],
+"correctAnswer": 0
+},
+{
+"id": 56,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'O Iluminado', qual é o nome do hotel onde a história se passa?",
+"answers": [
+"Hotel Overlook",
+"Hotel Bates",
+"Hotel Continental",
+"Hotel Elysium",
+"Hotel Stanley",
+"Hotel Grand"
+],
+"correctAnswer": 0
+},
+{
+"id": 57,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'It: A Coisa', qual é a entidade que assume a forma de Pennywise?",
+"answers": [
+"Uma entidade sobrenatural conhecida como It",
+"Um fantasma humano",
+"Um alienígena",
+"Um demônio criado por magia",
+"Um palhaço assassino comum",
+"Um espírito infantil"
+],
+"correctAnswer": 0
+},
+{
+"id": 58,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'O Silêncio dos Inocentes', qual é o nome do famoso assassino canibal?",
+"answers": [
+"Hannibal Lecter",
+"Norman Bates",
+"Jigsaw",
+"Patrick Bateman",
+"Leatherface",
+"John Doe"
+],
+"correctAnswer": 0
+},
+{
+"id": 59,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'Pulp Fiction', qual é o nome de um dos dois assassinos profissionais que trabalham para Marsellus Wallace?",
+"answers": [
+"Jules Winnfield",
+"Mia Wallace",
+"Vincent Vega",
+"Butch Coolidge",
+"Winston Wolf",
+"Marsellus Wallace"
+],
+"correctAnswer": 0
+},
+{
+"id": 60,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'O Grande Lebowski', pelo que o protagonista é conhecido?",
+"answers": [
+"The Dude",
+"The Man",
+"The Stranger",
+"The Player",
+"The Driver",
+"The Big One"
+],
+"correctAnswer": 0
+},
+{
+"id": 61,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'Cidade de Deus', em qual cidade brasileira a história se passa?",
+"answers": [
+"Rio de Janeiro",
+"São Paulo",
+"Salvador",
+"Belo Horizonte",
+"Recife",
+"Brasília"
+],
+"correctAnswer": 0
+},
+{
+"id": 62,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'O Pianista', qual é a nacionalidade do protagonista Władysław Szpilman?",
+"answers": [
+"Polonesa",
+"Alemã",
+"Francesa",
+"Austríaca",
+"Russa",
+"Húngara"
+],
+"correctAnswer": 0
+},
+{
+"id": 63,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'A Viagem de Chihiro', qual é o nome da protagonista?",
+"answers": [
+"Chihiro",
+"Sophie",
+"Kiki",
+"Nausicaä",
+"San",
+"Sheeta"
+],
+"correctAnswer": 0
+},
+{
+"id": 64,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'O Castelo Animado', qual é o nome do mago que vive no castelo?",
+"answers": [
+"Howl",
+"Calcifer",
+"Haku",
+"Jiji",
+"Ashitaka",
+"Kamaji"
+],
+"correctAnswer": 0
+},
+{
+"id": 65,
+"category": "movies",
+"difficulty": "medium",
+"question": "Em 'Your Name', qual é o fenômeno que conecta as vidas de Mitsuha e Taki?",
+"answers": [
+"Troca de corpos",
+"Viagem espacial",
+"Viagem para outro planeta",
+"Clonagem",
+"Telepatia",
+"Viagem para o futuro"
+],
+"correctAnswer": 0
+},
+{
+"id": 66,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'O Senhor dos Anéis: A Sociedade do Anel', qual é o nome élfico da cidade onde acontece o Conselho de Elrond?",
+"answers": [
+"Valfenda",
+"Lothlórien",
+"Moria",
+"Gondor",
+"Rohan",
+"Isengard"
+],
+"correctAnswer": 0
+},
+{
+"id": 67,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'O Senhor dos Anéis', qual é o nome original da espada quebrada que posteriormente é reforjada como Andúril?",
+"answers": [
+"Narsil",
+"Glamdring",
+"Sting",
+"Orcrist",
+"Hadhafang",
+"Herugrim"
+],
+"correctAnswer": 0
+},
+{
+"id": 68,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Harry Potter e as Relíquias da Morte', quais são os três objetos que formam as Relíquias da Morte?",
+"answers": [
+"Varinha das Varinhas, Pedra da Ressurreição e Capa da Invisibilidade",
+"Espada de Gryffindor, Pedra Filosofal e Mapa do Maroto",
+"Diário de Tom Riddle, Medalhão e Cálice de Hufflepuff",
+"Capa da Invisibilidade, Mapa do Maroto e Espada de Gryffindor",
+"Pedra Filosofal, Varinha das Varinhas e Medalhão de Sonserina",
+"Cálice de Hufflepuff, Capa da Invisibilidade e Diário de Tom Riddle"
+],
+"correctAnswer": 0
+},
+{
+"id": 69,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Harry Potter e o Cálice de Fogo', quem aparece no Cálice de Fogo junto com Harry como campeão de Hogwarts?",
+"answers": [
+"Cedrico Diggory",
+"Viktor Krum",
+"Fleur Delacour",
+"Draco Malfoy",
+"Neville Longbottom",
+"Severo Snape"
+],
+"correctAnswer": 0
+},
+{
+"id": 70,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Vingadores: Ultimato', qual personagem segura o Mjolnir durante a batalha final?",
+"answers": [
+"Steve Rogers",
+"Tony Stark",
+"Thor",
+"Bruce Banner",
+"Clint Barton",
+"Sam Wilson"
+],
+"correctAnswer": 0
+},
+{
+"id": 71,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Vingadores: Ultimato', onde Steve Rogers devolve as Joias do Infinito?",
+"answers": [
+"Nos pontos específicos do passado onde elas foram retiradas",
+"Na Torre Stark",
+"Em Wakanda",
+"No Santuário de Kamar-Taj",
+"Em Asgard",
+"Na base dos Vingadores"
+],
+"correctAnswer": 0
+},
+{
+"id": 72,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Pantera Negra', qual é o nome do metal usado para fabricar o escudo do Capitão América e presente em Wakanda?",
+"answers": [
+"Vibranium",
+"Adamantium",
+"Uru",
+"Promethium",
+"Carbonadium",
+"Titanium"
+],
+"correctAnswer": 0
+},
+{
+"id": 73,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Guardiões da Galáxia Vol. 2', qual é o nome verdadeiro do pai biológico de Peter Quill?",
+"answers": [
+"Ego",
+"Yondu",
+"Kraglin",
+"Ronan",
+"Taneleer Tivan",
+"Howard the Duck"
+],
+"correctAnswer": 0
+},
+{
+"id": 74,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Homem-Aranha: Sem Volta para Casa', qual é a identidade do vilão que controla máquinas com quatro braços mecânicos?",
+"answers": [
+"Doutor Octopus",
+"Duende Verde",
+"Electro",
+"Homem-Areia",
+"Lagarto",
+"Mysterio"
+],
+"correctAnswer": 0
+},
+{
+"id": 75,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Doutor Estranho', qual objeto permite manipular o tempo?",
+"answers": [
+"Olho de Agamotto",
+"Orbe de Agamotto",
+"Capa da Levitação",
+"Cetro da Mente",
+"Éter",
+"Tesseract"
+],
+"correctAnswer": 0
+},
+{
+"id": 76,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Oppenheimer', qual cidade japonesa foi destruída pela segunda bomba atômica usada em 1945?",
+"answers": [
+"Nagasaki",
+"Hiroshima",
+"Kyoto",
+"Osaka",
+"Tóquio",
+"Yokohama"
+],
+"correctAnswer": 0
+},
+{
+"id": 77,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Clube da Luta', qual regra é repetida como a primeira regra do clube?",
+"answers": [
+"Você não fala sobre o Clube da Luta",
+"Você sempre luta até vencer",
+"Você nunca pode desistir",
+"Você deve lutar sozinho",
+"Você precisa usar máscara",
+"Você precisa desafiar o líder"
+],
+"correctAnswer": 0
+},
+{
+"id": 78,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Interestelar', qual é o nome do planeta onde o tempo passa extremamente mais devagar devido à proximidade de Gargantua?",
+"answers": [
+"Planeta de Miller",
+"Planeta de Mann",
+"Planeta Edmunds",
+"Planeta Cooper",
+"Planeta Gargantua",
+"Planeta Lazarus"
+],
+"correctAnswer": 0
+},
+{
+"id": 79,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'A Origem', qual é o trabalho de Arthur dentro da equipe de Cobb?",
+"answers": [
+"Pesquisador e organizador da operação",
+"Arquiteto",
+"Químico",
+"Extrator",
+"Forjador",
+"Alvo"
+],
+"correctAnswer": 0
+},
+{
+"id": 80,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'O Prestige', quais são os dois mágicos rivais que protagonizam a história?",
+"answers": [
+"Robert Angier e Alfred Borden",
+"Alfred Borden e Nikola Tesla",
+"Robert Angier e Nikola Tesla",
+"Thomas Edison e Alfred Borden",
+"John Cutter e Nikola Tesla",
+"Robert Angier e Harry Cutter"
+],
+"correctAnswer": 0
+},
+{
+"id": 81,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Blade Runner 2049', qual é a profissão do protagonista K?",
+"answers": [
+"Blade Runner",
+"Detetive particular",
+"Cientista",
+"Replicante fugitivo",
+"Piloto",
+"Engenheiro"
+],
+"correctAnswer": 0
+},
+{
+"id": 82,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Duna: Parte Um', qual é o nome do protagonista pertencente à Casa Atreides?",
+"answers": [
+"Paul Atreides",
+"Duncan Idaho",
+"Gurney Halleck",
+"Feyd-Rautha",
+"Stilgar",
+"Glossu Rabban"
+],
+"correctAnswer": 0
+},
+{
+"id": 83,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Duna: Parte Dois', qual é o nome do grupo do deserto ao qual Paul se junta?",
+"answers": [
+"Fremen",
+"Sardaukar",
+"Bene Gesserit",
+"Atreides",
+"Harkonnen",
+"Spacing Guild"
+],
+"correctAnswer": 0
+},
+{
+"id": 84,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Matrix', qual é o nome verdadeiro do personagem conhecido como Neo?",
+"answers": [
+"Thomas Anderson",
+"Thomas Smith",
+"John Anderson",
+"Michael Neo",
+"Jonathan Anderson",
+"Daniel Thomas"
+],
+"correctAnswer": 0
+},
+{
+"id": 85,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Matrix', qual é o nome do agente que se torna o principal adversário de Neo?",
+"answers": [
+"Agente Smith",
+"Agente Brown",
+"Agente Jones",
+"Agente Johnson",
+"Agente White",
+"Agente Anderson"
+],
+"correctAnswer": 0
+},
+{
+"id": 86,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'O Labirinto do Fauno', como se chama a protagonista interpretada por Ivana Baquero?",
+"answers": [
+"Ofelia",
+"Mercedes",
+"Carmen",
+"Lola",
+"Ariadna",
+"Elena"
+],
+"correctAnswer": 0
+},
+{
+"id": 87,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Parasita', qual é o sobrenome da família pobre que começa a se infiltrar na casa dos Park?",
+"answers": [
+"Kim",
+"Park",
+"Choi",
+"Lee",
+"Kang",
+"Han"
+],
+"correctAnswer": 0
+},
+{
+"id": 88,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Whiplash', qual instrumento musical o protagonista Andrew Neiman toca?",
+"answers": [
+"Bateria",
+"Piano",
+"Guitarra",
+"Saxofone",
+"Violino",
+"Trompete"
+],
+"correctAnswer": 0
+},
+{
+"id": 89,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'O Lobo de Wall Street', qual é a principal atividade profissional de Jordan Belfort?",
+"answers": [
+"Corretor de ações",
+"Advogado",
+"Banqueiro",
+"Contador",
+"Empresário imobiliário",
+"Jornalista financeiro"
+],
+"correctAnswer": 0
+},
+{
+"id": 90,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Jogos Vorazes: Em Chamas', qual é a arena utilizada no Massacre Quaternário?",
+"answers": [
+"Uma arena em formato de relógio",
+"Uma floresta subterrânea",
+"Uma cidade em ruínas",
+"Um deserto",
+"Uma montanha congelada",
+"Uma ilha vulcânica"
+],
+"correctAnswer": 0
+},
+{
+"id": 91,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Kill Bill', qual é o nome da protagonista interpretada por Uma Thurman?",
+"answers": [
+"A Noiva",
+"Mia Wallace",
+"Elle Driver",
+"O-Ren Ishii",
+"Gogo Yubari",
+"Sofie Fatale"
+],
+"correctAnswer": 0
+},
+{
+"id": 92,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'O Sexto Sentido', qual é a famosa frase que Cole diz sobre as pessoas que consegue ver?",
+"answers": [
+"Eu vejo pessoas mortas",
+"Eu consigo ver o futuro",
+"Eles estão me seguindo",
+"Eu conheço todos os fantasmas",
+"Eles moram dentro da minha casa",
+"Eu consigo conversar com animais"
+],
+"correctAnswer": 0
+},
+{
+"id": 93,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'A Lista de Schindler', qual empresário tenta salvar judeus empregando-os em sua fábrica?",
+"answers": [
+"Oskar Schindler",
+"Amon Göth",
+"Itzhak Stern",
+"Rudolf Höss",
+"Josef Mengele",
+"Hans Frank"
+],
+"correctAnswer": 0
+},
+{
+"id": 94,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'O Resgate do Soldado Ryan', qual é o objetivo principal da missão do Capitão Miller?",
+"answers": [
+"Encontrar e levar o soldado James Ryan para casa",
+"Capturar Adolf Hitler",
+"Destruir uma base alemã",
+"Resgatar um general",
+"Capturar uma cidade",
+"Recuperar um tanque"
+],
+"correctAnswer": 0
+},
+{
+"id": 95,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'A Rede Social', qual empresa é fundada durante os acontecimentos retratados no filme?",
+"answers": [
+"Facebook",
+"Google",
+"Apple",
+"Microsoft",
+"Amazon",
+"Twitter"
+],
+"correctAnswer": 0
+},
+{
+"id": 96,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Top Gun: Maverick', qual é o nome do personagem de Tom Cruise?",
+"answers": [
+"Pete 'Maverick' Mitchell",
+"Tom 'Iceman' Kazansky",
+"Bradley 'Rooster' Bradshaw",
+"Jake 'Hangman' Seresin",
+"Nick 'Goose' Bradshaw",
+"Chester 'Hammer' Cain"
+],
+"correctAnswer": 0
+},
+{
+"id": 97,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Oppenheimer', qual projeto científico está no centro da história?",
+"answers": [
+"Projeto Manhattan",
+"Projeto Mercury",
+"Projeto Apollo",
+"Projeto Gemini",
+"Projeto Trinity",
+"Projeto Orion"
+],
+"correctAnswer": 0
+},
+{
+"id": 98,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Mad Max: Estrada da Fúria', qual é o objetivo de Furiosa ao fugir da Cidadela?",
+"answers": [
+"Levar as esposas de Immortan Joe para um lugar seguro",
+"Roubar petróleo",
+"Destruir a Cidadela",
+"Capturar Max",
+"Encontrar uma arma",
+"Tomar o controle dos War Boys"
+],
+"correctAnswer": 0
+},
+{
+"id": 99,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'O Poderoso Chefão: Parte III', qual é o nome do personagem que Michael Corleone tenta preparar para assumir a família?",
+"answers": [
+"Vincent Mancini",
+"Sonny Corleone",
+"Fredo Corleone",
+"Tom Hagen",
+"Connie Corleone",
+"Carlo Rizzi"
+],
+"correctAnswer": 0
+},
+{
+"id": 100,
+"category": "movies",
+"difficulty": "hard",
+"question": "Em 'Os Infiltrados', qual é o nome do personagem interpretado por Leonardo DiCaprio que se infiltra na organização de Frank Costello?",
+"answers": [
+"Billy Costigan",
+"Colin Sullivan",
+"Frank Costello",
+"Dignam",
+"Sean Dignam",
+"George Ellerby"
+],
+"correctAnswer": 0
+}
 ]

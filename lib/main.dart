@@ -1,8 +1,10 @@
-// flutter run -d chrome
 import 'package:flutter/material.dart';
 import 'screens/home/home_screen.dart';
+import 'core/storage_service.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await StorageService().init(); // Inicializa SharedPreferences
   runApp(const MeuApp());
 }
 

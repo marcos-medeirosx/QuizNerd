@@ -1,56 +1,1502 @@
 [
-  {
-    "id": 1,
-    "category": "anime",
-    "difficulty": "easy",
-    "question": "Qual é o nome do protagonista de 'Naruto'?",
-    "answers": ["Naruto Uzumaki", "Sasuke Uchiha", "Sakura Haruno", "Kakashi Hatake", "Jiraiya", "Orochimaru"],
-    "correctAnswer": 0,
-    "explanation": "Naruto Uzumaki é o personagem principal."
-  },
-  {
-    "id": 2,
-    "category": "anime",
-    "difficulty": "easy",
-    "question": "Em qual anime aparece o personagem 'Goku'?",
-    "answers": ["Dragon Ball", "One Piece", "Naruto", "Bleach", "Hunter x Hunter", "Fairy Tail"],
-    "correctAnswer": 0,
-    "explanation": "Goku é o protagonista de Dragon Ball."
-  },
-  {
-    "id": 3,
-    "category": "anime",
-    "difficulty": "medium",
-    "question": "Qual é o nome do titã de Eren Jaeger em 'Shingeki no Kyojin'?",
-    "answers": ["Titã de Ataque", "Titã Fêmea", "Titã Bestial", "Titã Colossal", "Titã Blindado", "Titã Martelo de Guerra"],
-    "correctAnswer": 0,
-    "explanation": "Eren possui o Titã de Ataque."
-  },
-  {
-    "id": 4,
-    "category": "anime",
-    "difficulty": "medium",
-    "question": "Qual é o nome da nave principal em 'Cowboy Bebop'?",
-    "answers": ["Bebop", "Swordfish II", "Red Tail", "Hammerhead", "Tiger Moth", "Faye's Ship"],
-    "correctAnswer": 0,
-    "explanation": "A nave dos protagonistas se chama Bebop."
-  },
-  {
-    "id": 5,
-    "category": "anime",
-    "difficulty": "hard",
-    "question": "Em 'Neon Genesis Evangelion', qual é o nome do primeiro Anjo?",
-    "answers": ["Adam", "Lilith", "Sachiel", "Shamshel", "Ramiel", "Gaghiel"],
-    "correctAnswer": 0,
-    "explanation": "Adam é o Primeiro Anjo."
-  },
-  {
-    "id": 6,
-    "category": "anime",
-    "difficulty": "hard",
-    "question": "Quem é o autor do mangá 'Berserk'?",
-    "answers": ["Kentaro Miura", "Eiichiro Oda", "Masashi Kishimoto", "Tite Kubo", "Hajime Isayama", "Yoshihiro Togashi"],
-    "correctAnswer": 0,
-    "explanation": "Kentaro Miura criou Berserk."
-  }
+{
+"id": 1,
+"category": "anime",
+"difficulty": "easy",
+"question": "Qual é o nome do protagonista de 'Naruto'?",
+"answers": [
+"Naruto Uzumaki",
+"Sasuke Uchiha",
+"Sakura Haruno",
+"Kakashi Hatake",
+"Jiraiya",
+"Orochimaru"
+],
+"correctAnswer": 0
+},
+{
+"id": 2,
+"category": "anime",
+"difficulty": "easy",
+"question": "Em qual anime aparece o personagem Goku?",
+"answers": [
+"Dragon Ball",
+"One Piece",
+"Naruto",
+"Bleach",
+"Hunter x Hunter",
+"Fairy Tail"
+],
+"correctAnswer": 0
+},
+{
+"id": 3,
+"category": "anime",
+"difficulty": "easy",
+"question": "Qual é o sonho principal de Monkey D. Luffy em 'One Piece'?",
+"answers": [
+"Se tornar o Rei dos Piratas",
+"Encontrar a cura para todas as doenças",
+"Derrotar os Quatro Imperadores",
+"Ser o maior espadachim do mundo",
+"Mapear todo o mundo",
+"Mudar o Governo Mundial"
+],
+"correctAnswer": 0
+},
+{
+"id": 4,
+"category": "anime",
+"difficulty": "easy",
+"question": "Qual caderno dá título ao anime em que o usuário pode matar escrevendo o nome da pessoa nele?",
+"answers": [
+"Death Note",
+"Future Diary",
+"Book of Circus",
+"Grimoire",
+"Necronomicon",
+"Notebook of Fate"
+],
+"correctAnswer": 0
+},
+{
+"id": 5,
+"category": "anime",
+"difficulty": "easy",
+"question": "Qual é a principal característica do poder de Saitama em 'One Punch Man'?",
+"answers": [
+"Derrotar inimigos com apenas um soco",
+"Soltar rajadas de energia solar",
+"Mover-se na velocidade da luz",
+"Ficar invisível",
+"Criar clones de sombras",
+"Controlar a mente dos oponentes"
+],
+"correctAnswer": 0
+},
+{
+"id": 6,
+"category": "anime",
+"difficulty": "easy",
+"question": "Em 'Pokémon', qual é o primeiro Pokémon companheiro de Ash Ketchum?",
+"answers": [
+"Pikachu",
+"Charmander",
+"Squirtle",
+"Bulbasaur",
+"Pidgey",
+"Eevee"
+],
+"correctAnswer": 0
+},
+{
+"id": 7,
+"category": "anime",
+"difficulty": "easy",
+"question": "Qual é o nome da guilda principal no anime 'Fairy Tail'?",
+"answers": [
+"Fairy Tail",
+"Sabertooth",
+"Phantom Lord",
+"Blue Pegasus",
+"Lamia Scale",
+"Tartaros"
+],
+"correctAnswer": 0
+},
+{
+"id": 8,
+"category": "anime",
+"difficulty": "easy",
+"question": "Em 'Demon Slayer', qual é a cor predominante do cabelo de Tanjiro Kamado?",
+"answers": [
+"Castanho-avermelhado",
+"Loiro",
+"Azul escuro",
+"Verde fluorescente",
+"Branco",
+"Rosa"
+],
+"correctAnswer": 0
+},
+{
+"id": 9,
+"category": "anime",
+"difficulty": "easy",
+"question": "Qual anime apresenta jovens que participam de batalhas usando beyblades?",
+"answers": [
+"Beyblade",
+"Yu-Gi-Oh!",
+"Bakugan",
+"Digimon",
+"Inazuma Eleven",
+"Medabots"
+],
+"correctAnswer": 0
+},
+{
+"id": 10,
+"category": "anime",
+"difficulty": "easy",
+"question": "Em 'My Hero Academia', qual é o nome do herói número 1 conhecido como o Símbolo da Paz?",
+"answers": [
+"All Might",
+"Endeavor",
+"Hawks",
+"Best Jeanist",
+"Eraser Head",
+"Present Mic"
+],
+"correctAnswer": 0
+},
+{
+"id": 11,
+"category": "anime",
+"difficulty": "easy",
+"question": "Qual é a profissão de Ging Freecss, pai de Gon?",
+"answers": [
+"Hunter (Caçador)",
+"Médico",
+"Pirata",
+"Ninja",
+"Cozinheiro",
+"Policial"
+],
+"correctAnswer": 0
+},
+{
+"id": 12,
+"category": "anime",
+"difficulty": "easy",
+"question": "Qual princípio fundamental rege a alquimia em 'Fullmetal Alchemist'?",
+"answers": [
+"Princípio da Troca Equivalente",
+"Pedra Filosofal",
+"Uso de Magia Negra",
+"Sacrifício de Sangue Puro",
+"Círculo de Transmutação",
+"Essência da Alma"
+],
+"correctAnswer": 0
+},
+{
+"id": 13,
+"category": "anime",
+"difficulty": "easy",
+"question": "Qual é o esporte praticado no anime 'Haikyu!!'?",
+"answers": [
+"Vôlei",
+"Basquete",
+"Futebol",
+"Tênis",
+"Natação",
+"Beisebol"
+],
+"correctAnswer": 0
+},
+{
+"id": 14,
+"category": "anime",
+"difficulty": "easy",
+"question": "Qual é uma das espadas mais famosas usadas por Kirito em 'Sword Art Online'?",
+"answers": [
+"Elucidator",
+"Dark Repulser",
+"Excalibur",
+"Lambent Light",
+"Kagemitsu G4",
+"Blue Rose Sword"
+],
+"correctAnswer": 0
+},
+{
+"id": 15,
+"category": "anime",
+"difficulty": "easy",
+"question": "Qual é o nome do gato falante preto de 'Sailor Moon'?",
+"answers": [
+"Luna",
+"Artemis",
+"Diana",
+"Meowth",
+"Happy",
+"Plue"
+],
+"correctAnswer": 0
+},
+{
+"id": 16,
+"category": "anime",
+"difficulty": "easy",
+"question": "Em 'Bleach', qual é o nome do protagonista que se torna um Shinigami Substituto?",
+"answers": [
+"Ichigo Kurosaki",
+"Rukia Kuchiki",
+"Uryu Ishida",
+"Renji Abarai",
+"Sosuke Aizen",
+"Toshiro Hitsugaya"
+],
+"correctAnswer": 0
+},
+{
+"id": 17,
+"category": "anime",
+"difficulty": "easy",
+"question": "Em 'Jujutsu Kaisen', quem é o receptáculo de Sukuna?",
+"answers": [
+"Yuji Itadori",
+"Megumi Fushiguro",
+"Nobara Kugisaki",
+"Satoru Gojo",
+"Yuta Okkotsu",
+"Kento Nanami"
+],
+"correctAnswer": 0
+},
+{
+"id": 18,
+"category": "anime",
+"difficulty": "easy",
+"question": "Qual destas Akuma no Mi foi comida por Luffy?",
+"answers": [
+"Gomu Gomu no Mi",
+"Mera Mera no Mi",
+"Ope Ope no Mi",
+"Gura Gura no Mi",
+"Moku Moku no Mi",
+"Ito Ito no Mi"
+],
+"correctAnswer": 0
+},
+{
+"id": 19,
+"category": "anime",
+"difficulty": "easy",
+"question": "Qual é o nome do robô azul com aparência de gato que veio do futuro?",
+"answers": [
+"Doraemon",
+"Astro Boy",
+"Dr. Slump",
+"Kero",
+"Pikachu",
+"Chopper"
+],
+"correctAnswer": 0
+},
+{
+"id": 20,
+"category": "anime",
+"difficulty": "easy",
+"question": "Em 'Tokyo Ghoul', Ken Kaneki se transforma em meio-ghoul após receber órgãos de quem?",
+"answers": [
+"Rize Kamishiro",
+"Touka Kirishima",
+"Yoshimura",
+"Shuu Tsukiyama",
+"Nishiki Nishio",
+"Amon Kotaro"
+],
+"correctAnswer": 0
+},
+{
+"id": 21,
+"category": "anime",
+"difficulty": "easy",
+"question": "Qual é o nome do cachorro que acompanha a tripulação de 'Cowboy Bebop'?",
+"answers": [
+"Ein",
+"Spike",
+"Jet",
+"Edward",
+"Vicious",
+"Faye"
+],
+"correctAnswer": 0
+},
+{
+"id": 22,
+"category": "anime",
+"difficulty": "easy",
+"question": "Em 'Black Clover', Asta não possui magia, mas possui o quê?",
+"answers": [
+"Anti-Magia",
+"Magia de Fogo",
+"Magia de Luz",
+"Magia de Espaço",
+"Magia de Vento",
+"Magia de Criação"
+],
+"correctAnswer": 0
+},
+{
+"id": 23,
+"category": "anime",
+"difficulty": "easy",
+"question": "Qual é o objetivo de Light Yagami ao usar o Death Note?",
+"answers": [
+"Criar um mundo sem crimes e se tornar seu Deus",
+"Ficar rico e famoso",
+"Vingar a morte de seus pais",
+"Conquistar o controle militar do Japão",
+"Destruir a polícia civil",
+"Trazer os Shinigamis para a Terra"
+],
+"correctAnswer": 0
+},
+{
+"id": 24,
+"category": "anime",
+"difficulty": "easy",
+"question": "Em 'Dragon Ball Z', de qual planeta Goku é originário?",
+"answers": [
+"Planeta Vegeta",
+"Planeta Namek",
+"Planeta Terra",
+"Planeta Yardrat",
+"Planeta Sadala",
+"Planeta Kaio"
+],
+"correctAnswer": 0
+},
+{
+"id": 25,
+"category": "anime",
+"difficulty": "easy",
+"question": "Qual é o prato de comida preferido de Naruto?",
+"answers": [
+"Ramen",
+"Sushi",
+"Takoyaki",
+"Dango",
+"Curry",
+"Onigiri"
+],
+"correctAnswer": 0
+},
+{
+"id": 26,
+"category": "anime",
+"difficulty": "easy",
+"question": "Em 'Os Cavaleiros do Zodíaco', qual constelação Seiya representa?",
+"answers": [
+"Pégaso",
+"Dragão",
+"Cisne",
+"Andrômeda",
+"Fênix",
+"Sagitário"
+],
+"correctAnswer": 0
+},
+{
+"id": 27,
+"category": "anime",
+"difficulty": "easy",
+"question": "Em 'Chainsaw Man', qual é o nome do demônio motosserra que acompanha Denji?",
+"answers": [
+"Pochita",
+"Power",
+"Aki",
+"Makima",
+"Beam",
+"Meowy"
+],
+"correctAnswer": 0
+},
+{
+"id": 28,
+"category": "anime",
+"difficulty": "easy",
+"question": "No anime 'Spy x Family', qual é o poder secreto de Anya?",
+"answers": [
+"Ler mentes",
+"Invisibilidade",
+"Super força",
+"Teletransporte",
+"Ver o futuro",
+"Parar o tempo"
+],
+"correctAnswer": 0
+},
+{
+"id": 29,
+"category": "anime",
+"difficulty": "easy",
+"question": "Qual é o nome do irmão mais novo de Edward Elric em 'Fullmetal Alchemist'?",
+"answers": [
+"Alphonse Elric",
+"Roy Mustang",
+"Maes Hughes",
+"Scar",
+"Ling Yao",
+"Van Hohenheim"
+],
+"correctAnswer": 0
+},
+{
+"id": 30,
+"category": "anime",
+"difficulty": "easy",
+"question": "Em 'InuYasha', o protagonista InuYasha é o quê?",
+"answers": [
+"Meio-demônio",
+"Humano puro",
+"Anjo",
+"Deus da Guerra",
+"Vampiro",
+"Espírito da Floresta"
+],
+"correctAnswer": 0
+},
+{
+"id": 31,
+"category": "anime",
+"difficulty": "easy",
+"question": "Qual é o nome da irmã de Tanjiro que é transformada em demônio em 'Demon Slayer'?",
+"answers": [
+"Nezuko",
+"Kanao",
+"Shinobu",
+"Mitsuri",
+"Tamayo",
+"Aoi"
+],
+"correctAnswer": 0
+},
+{
+"id": 32,
+"category": "anime",
+"difficulty": "easy",
+"question": "Em 'Dr. Stone', qual evento transforma a humanidade em pedra?",
+"answers": [
+"Uma misteriosa luz verde",
+"Uma explosão nuclear",
+"Um vírus desconhecido",
+"Uma invasão alienígena",
+"Um feitiço de magia",
+"Uma chuva de meteoros"
+],
+"correctAnswer": 0
+},
+{
+"id": 33,
+"category": "anime",
+"difficulty": "easy",
+"question": "Qual é o nome do famoso jogo de cartas de 'Yu-Gi-Oh!'?",
+"answers": [
+"Duel Monsters",
+"Magic: The Gathering",
+"Cardfight!! Vanguard",
+"Shadowverse",
+"Hearthstone",
+"Bakugan"
+],
+"correctAnswer": 0
+},
+{
+"id": 34,
+"category": "anime",
+"difficulty": "medium",
+"question": "Qual é o nome do Titã de Eren Yeager em 'Shingeki no Kyojin'?",
+"answers": [
+"Titã de Ataque",
+"Titã Fêmea",
+"Titã Bestial",
+"Titã Colossal",
+"Titã Blindado",
+"Titã Martelo de Guerra"
+],
+"correctAnswer": 0
+},
+{
+"id": 35,
+"category": "anime",
+"difficulty": "medium",
+"question": "Qual é o nome da nave principal da tripulação em 'Cowboy Bebop'?",
+"answers": [
+"Bebop",
+"Swordfish II",
+"Red Tail",
+"Hammerhead",
+"Tiger Moth",
+"Aloha Oe"
+],
+"correctAnswer": 0
+},
+{
+"id": 36,
+"category": "anime",
+"difficulty": "medium",
+"question": "Em 'Hunter x Hunter', qual tipo de Nen pertence a Killua Zoldyck?",
+"answers": [
+"Transformação",
+"Reforço",
+"Materialização",
+"Emissão",
+"Manipulação",
+"Especialização"
+],
+"correctAnswer": 0
+},
+{
+"id": 37,
+"category": "anime",
+"difficulty": "medium",
+"question": "Qual é o nome da Zanpakutō de Ichigo Kurosaki em 'Bleach'?",
+"answers": [
+"Zangetsu",
+"Senbonzakura",
+"Hyorinmaru",
+"Kyoka Suigetsu",
+"Wabisuke",
+"Zabimaru"
+],
+"correctAnswer": 0
+},
+{
+"id": 38,
+"category": "anime",
+"difficulty": "medium",
+"question": "Em 'Code Geass', qual é o poder concedido a Lelouch por C.C.?",
+"answers": [
+"Geass da Obediência Absoluta",
+"Invisibilidade Total",
+"Precognição",
+"Telecinesia",
+"Leitura de Pensamentos",
+"Imortalidade"
+],
+"correctAnswer": 0
+},
+{
+"id": 39,
+"category": "anime",
+"difficulty": "medium",
+"question": "Em 'Steins;Gate', qual aparelho doméstico é modificado para enviar mensagens ao passado?",
+"answers": [
+"Forno de micro-ondas",
+"Geladeira",
+"Televisor de tubo",
+"Máquina de lavar",
+"Telefone fixo",
+"Rádio AM/FM"
+],
+"correctAnswer": 0
+},
+{
+"id": 40,
+"category": "anime",
+"difficulty": "medium",
+"question": "Quem ensinou a técnica Rasengan para Naruto Uzumaki?",
+"answers": [
+"Jiraiya",
+"Kakashi Hatake",
+"Iruka Umino",
+"Minato Namikaze",
+"Tsunade",
+"Hiruzen Sarutobi"
+],
+"correctAnswer": 0
+},
+{
+"id": 41,
+"category": "anime",
+"difficulty": "medium",
+"question": "Em 'One Piece', qual é o verdadeiro nome da ilha conhecida durante muito tempo como Raftel?",
+"answers": [
+"Laugh Tale",
+"Skypiea",
+"Marineford",
+"Enies Lobby",
+"Wano",
+"Whole Cake Island"
+],
+"correctAnswer": 0
+},
+{
+"id": 42,
+"category": "anime",
+"difficulty": "medium",
+"question": "Em 'Mob Psycho 100', qual é o nome do mestre e mentor de Shigeo Kageyama (Mob)?",
+"answers": [
+"Reigen Arataka",
+"Dimple",
+"Ritsu Kageyama",
+"Teruki Hanazawa",
+"Shou Suzuki",
+"Toichiro Suzuki"
+],
+"correctAnswer": 0
+},
+{
+"id": 43,
+"category": "anime",
+"difficulty": "medium",
+"question": "Qual é a classificação da Kagune de Ken Kaneki em 'Tokyo Ghoul'?",
+"answers": [
+"Rinkaku",
+"Ukaku",
+"Koukaku",
+"Bikaku",
+"Kakuja",
+"Chimera"
+],
+"correctAnswer": 0
+},
+{
+"id": 44,
+"category": "anime",
+"difficulty": "medium",
+"question": "Em 'JoJo's Bizarre Adventure: Stardust Crusaders', qual é o nome do Stand de Jotaro Kujo?",
+"answers": [
+"Star Platinum",
+"The World",
+"Crazy Diamond",
+"Hermit Purple",
+"Silver Chariot",
+"Magician's Red"
+],
+"correctAnswer": 0
+},
+{
+"id": 45,
+"category": "anime",
+"difficulty": "medium",
+"question": "Em 'Fate/stay night', qual é a verdadeira identidade da Serva da classe Saber, Artoria?",
+"answers": [
+"Rei Artur",
+"Joana d'Arc",
+"Alexandre, o Grande",
+"Hércules",
+"Gilgamesh",
+"Medusa"
+],
+"correctAnswer": 0
+},
+{
+"id": 46,
+"category": "anime",
+"difficulty": "medium",
+"question": "Qual é o nome da organização da qual os protagonistas fazem parte em 'Akame ga Kill!'?",
+"answers": [
+"Night Raid",
+"Jaegers",
+"Wild Hunt",
+"Three Beasts",
+"Imperial Guard",
+"Red Eyes"
+],
+"correctAnswer": 0
+},
+{
+"id": 47,
+"category": "anime",
+"difficulty": "medium",
+"question": "Em 'My Hero Academia', qual é o nome da Individualidade transmitida através das gerações por seus portadores?",
+"answers": [
+"One For All",
+"All For One",
+"Explosion",
+"Half-Cold Half-Hot",
+"Decay",
+"Erasure"
+],
+"correctAnswer": 0
+},
+{
+"id": 48,
+"category": "anime",
+"difficulty": "medium",
+"question": "No anime 'Gurren Lagann', qual é o nome do líder que atua como figura de irmão para Simon?",
+"answers": [
+"Kamina",
+"Kittan",
+"Rossiu",
+"Leeron",
+"Viral",
+"Lordgenome"
+],
+"correctAnswer": 0
+},
+{
+"id": 49,
+"category": "anime",
+"difficulty": "medium",
+"question": "Em 'Made in Abyss', qual é o nome do robô com aparência de menino encontrado por Riko?",
+"answers": [
+"Reg",
+"Nanachi",
+"Bondrewd",
+"Ozen",
+"Marulk",
+"Jiruo"
+],
+"correctAnswer": 0
+},
+{
+"id": 50,
+"category": "anime",
+"difficulty": "medium",
+"question": "Em 'Demon Slayer', quem é o Hashira das Chamas que enfrenta Akaza em 'Mugen Train'?",
+"answers": [
+"Kyojuro Rengoku",
+"Giyu Tomioka",
+"Tengen Uzui",
+"Sanemi Shinazugawa",
+"Muichiro Tokito",
+"Gyomei Himejima"
+],
+"correctAnswer": 0
+},
+{
+"id": 51,
+"category": "anime",
+"difficulty": "medium",
+"question": "Qual é a principal forma de combate de Sanji em 'One Piece'?",
+"answers": [
+"Lutar usando principalmente as pernas",
+"Usar três espadas",
+"Lutar usando pistolas",
+"Usar técnicas de navegação",
+"Usar poderes de fruta do diabo",
+"Lutar usando martelos"
+],
+"correctAnswer": 0
+},
+{
+"id": 52,
+"category": "anime",
+"difficulty": "medium",
+"question": "Em 'Psycho-Pass', qual é o nome da arma usada para avaliar o Coeficiente Criminal?",
+"answers": [
+"Dominator",
+"Paralyzer",
+"Enforcer",
+"Sibyl Gun",
+"Judgement",
+"Psycho-Gun"
+],
+"correctAnswer": 0
+},
+{
+"id": 53,
+"category": "anime",
+"difficulty": "medium",
+"question": "Qual personagem possui poderes relacionados ao tempo em 'Puella Magi Madoka Magica'?",
+"answers": [
+"Homura Akemi",
+"Madoka Kaname",
+"Sayaka Miki",
+"Kyoko Sakura",
+"Mami Tomoe",
+"Kyubey"
+],
+"correctAnswer": 0
+},
+{
+"id": 54,
+"category": "anime",
+"difficulty": "medium",
+"question": "Em 'Jujutsu Kaisen', qual é o nome da Expansão de Domínio de Satoru Gojo?",
+"answers": [
+"Vazio Ilimitado",
+"Santuário Malevolente",
+"Chimera Shadow Garden",
+"Self-Embodiment of Perfection",
+"Deadly Sentencing",
+"Horizon of the Captivating Skandha"
+],
+"correctAnswer": 0
+},
+{
+"id": 55,
+"category": "anime",
+"difficulty": "medium",
+"question": "Em 'Overlord', qual é o nome do personagem principal e sua identidade dentro do jogo?",
+"answers": [
+"Ainz Ooal Gown (Momonga)",
+"Touch Me",
+"Demiurge",
+"Cocytus",
+"Sebas Tian",
+"Pandora's Actor"
+],
+"correctAnswer": 0
+},
+{
+"id": 56,
+"category": "anime",
+"difficulty": "medium",
+"question": "Em 'Vinland Saga', quem é responsável pela morte de Thors, pai de Thorfinn?",
+"answers": [
+"Askeladd",
+"Thorkell",
+"Floki",
+"Canute",
+"Sweyn",
+"Bjorn"
+],
+"correctAnswer": 0
+},
+{
+"id": 57,
+"category": "anime",
+"difficulty": "medium",
+"question": "Em 'Kuroko no Basket', qual é a principal habilidade de Tetsuya Kuroko?",
+"answers": [
+"Misdirection",
+"Emperor Eye",
+"Zone",
+"Super Salto",
+"Cópia Perfeita",
+"Formless Shot"
+],
+"correctAnswer": 0
+},
+{
+"id": 58,
+"category": "anime",
+"difficulty": "medium",
+"question": "Em qual bairro de Tóquio se passa a maior parte de 'Durarara!!'?",
+"answers": [
+"Ikebukuro",
+"Shinjuku",
+"Shibuya",
+"Akihabara",
+"Roppongi",
+"Ginza"
+],
+"correctAnswer": 0
+},
+{
+"id": 59,
+"category": "anime",
+"difficulty": "medium",
+"question": "Em 'Re:Zero', qual é o nome do poder de Subaru que se ativa após sua morte?",
+"answers": [
+"Retorno pela Morte",
+"Loop Temporal de Satella",
+"Reencarnação Infinita",
+"Save Point",
+"Visão do Destino",
+"Autoridade da Inveja"
+],
+"correctAnswer": 0
+},
+{
+"id": 60,
+"category": "anime",
+"difficulty": "medium",
+"question": "Em 'Assassination Classroom', qual é a velocidade máxima atribuída a Koro-sensei?",
+"answers": [
+"Mach 20",
+"Mach 5",
+"Mach 10",
+"Velocidade da Luz",
+"Mach 50",
+"Mach 1"
+],
+"correctAnswer": 0
+},
+{
+"id": 61,
+"category": "anime",
+"difficulty": "medium",
+"question": "Qual é a espécie de Shippo em 'InuYasha'?",
+"answers": [
+"Kitsune",
+"Inugami",
+"Tengu",
+"Nekomata",
+"Okami",
+"Tanuki"
+],
+"correctAnswer": 0
+},
+{
+"id": 62,
+"category": "anime",
+"difficulty": "medium",
+"question": "Em 'No Game No Life', qual é o nome da dupla formada por Sora e Shiro?",
+"answers": [
+"Blank",
+"Kuromu",
+"Tet",
+"Disboard",
+"Imanity",
+"Elchea"
+],
+"correctAnswer": 0
+},
+{
+"id": 63,
+"category": "anime",
+"difficulty": "medium",
+"question": "Em 'Soul Eater', em qual tipo de arma Soul Evans pode se transformar?",
+"answers": [
+"Foice",
+"Espada",
+"Pistola dupla",
+"Lança",
+"Adaga",
+"Chicote"
+],
+"correctAnswer": 0
+},
+{
+"id": 64,
+"category": "anime",
+"difficulty": "medium",
+"question": "Em 'Yu Yu Hakusho', qual técnica conhecida como Spirit Wave foi ensinada por Genkai a Yusuke?",
+"answers": [
+"Spirit Wave (Reikō Hadōken)",
+"Spirit Gun",
+"Dragon of the Darkness Flame",
+"Rose Whip",
+"Dimension Sword",
+"Spirit Shotgun"
+],
+"correctAnswer": 0
+},
+{
+"id": 65,
+"category": "anime",
+"difficulty": "medium",
+"question": "Qual é o nome do espadachim de três espadas do bando do Chapéu de Palha em 'One Piece'?",
+"answers": [
+"Roronoa Zoro",
+"Vinsmoke Sanji",
+"Trafalgar Law",
+"Dracule Mihawk",
+"Shanks",
+"Brook"
+],
+"correctAnswer": 0
+},
+{
+"id": 66,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Neon Genesis Evangelion', qual é o nome do Primeiro Anjo?",
+"answers": [
+"Adam",
+"Lilith",
+"Sachiel",
+"Shamshel",
+"Ramiel",
+"Gaghiel"
+],
+"correctAnswer": 0
+},
+{
+"id": 67,
+"category": "anime",
+"difficulty": "hard",
+"question": "Quem é o autor do mangá 'Berserk'?",
+"answers": [
+"Kentaro Miura",
+"Eiichiro Oda",
+"Masashi Kishimoto",
+"Tite Kubo",
+"Hajime Isayama",
+"Yoshihiro Togashi"
+],
+"correctAnswer": 0
+},
+{
+"id": 68,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Serial Experiments Lain', qual é o nome da rede global de computadores explorada por Lain?",
+"answers": [
+"The Wired",
+"The Web",
+"NetSphere",
+"Cyberspace",
+"The Matrix",
+"Protocol 7"
+],
+"correctAnswer": 0
+},
+{
+"id": 69,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Monster', qual é o nome do médico que salva a vida de Johan Liebert?",
+"answers": [
+"Kenzo Tenma",
+"Heinrich Lunge",
+"Rudy Gillen",
+"Martin Reest",
+"Wolfgang Grimmer",
+"Jan Suk"
+],
+"correctAnswer": 0
+},
+{
+"id": 70,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'FLCL', qual é o nome do robô que surge da cabeça de Naota?",
+"answers": [
+"Canti",
+"Atomsk",
+"Medical Meccanica",
+"Haruko",
+"Amarao",
+"Kanchi"
+],
+"correctAnswer": 0
+},
+{
+"id": 71,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Revolutionary Girl Utena', qual é o nome da Noiva da Rosa?",
+"answers": [
+"Anthy Himemiya",
+"Akio Ohtori",
+"Juri Arisugawa",
+"Touga Kiryuu",
+"Miki Kaoru",
+"Nanami Kiryuu"
+],
+"correctAnswer": 0
+},
+{
+"id": 72,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Legend of the Galactic Heroes', qual é o nome da principal nave de guerra de Reinhard von Lohengramm?",
+"answers": [
+"Brünhild",
+"Balmung",
+"Hyperion",
+"Tristan",
+"Beowulf",
+"Siegfried"
+],
+"correctAnswer": 0
+},
+{
+"id": 73,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Ghost in the Shell: Stand Alone Complex', qual é o nome dos veículos robóticos com inteligência artificial usados pela Seção 9?",
+"answers": [
+"Tachikoma",
+"Fuchikoma",
+"Logicoma",
+"HAW-247",
+"Jigabachi",
+"Decatoncale"
+],
+"correctAnswer": 0
+},
+{
+"id": 74,
+"category": "anime",
+"difficulty": "hard",
+"question": "No filme de anime 'Paprika', qual é o nome do dispositivo usado para entrar nos sonhos dos pacientes?",
+"answers": [
+"DC Mini",
+"Psycho-Drive",
+"Dream-Walker",
+"Nirvana-1",
+"Animus",
+"Neural Link"
+],
+"correctAnswer": 0
+},
+{
+"id": 75,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Ergo Proxy', qual é o nome do vírus que desperta a autoconsciência nos Autoreivs?",
+"answers": [
+"Vírus Cogito",
+"Vírus Proxy",
+"Código Romani",
+"Ergo Bug",
+"Pulse Glitch",
+"Virus Medusa"
+],
+"correctAnswer": 0
+},
+{
+"id": 76,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Paranoia Agent', qual arma é usada pelo misterioso agressor conhecido como Shounen Bat?",
+"answers": [
+"Um taco de beisebol dourado e curvado",
+"Um martelo de ferro",
+"Uma barra de metal",
+"Um patim de gelo",
+"Uma corrente metálica",
+"Um bastão de kendo"
+],
+"correctAnswer": 0
+},
+{
+"id": 77,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Shinsekai Yori', como são chamados os seres humanoides semelhantes a ratos?",
+"answers": [
+"Queerats",
+"Fiends",
+"Karmic Demons",
+"Cantus Users",
+"Sub-humans",
+"Groundlings"
+],
+"correctAnswer": 0
+},
+{
+"id": 78,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Puella Magi Madoka Magica', qual é o nome da forma de bruxa associada ao destino de Madoka em uma linha do tempo anterior?",
+"answers": [
+"Kriemhild Gretchen",
+"Walpurgisnacht",
+"Charlotte",
+"Homulilly",
+"Oktavia von Seckendorff",
+"Elsa Maria"
+],
+"correctAnswer": 0
+},
+{
+"id": 79,
+"category": "anime",
+"difficulty": "hard",
+"question": "Qual é a designação do Eva pilotado por Asuka Langley Soryu em 'Neon Genesis Evangelion'?",
+"answers": [
+"EVA-02",
+"EVA-01",
+"EVA-00",
+"EVA-03",
+"EVA-05",
+"EVA-08"
+],
+"correctAnswer": 0
+},
+{
+"id": 80,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Texhnolyze', qual é o nome da cidade subterrânea onde a história se passa?",
+"answers": [
+"Lux",
+"Class",
+"Gabe",
+"Organo",
+"Racan",
+"The Hole"
+],
+"correctAnswer": 0
+},
+{
+"id": 81,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Monogatari Series', qual é o nome do vampiro que está ligado a Koyomi Araragi após os acontecimentos de 'Kizumonogatari'?",
+"answers": [
+"Kiss-shot Acerola-orion Heart-under-blade",
+"Sawari Neko",
+"Heavy Crab",
+"Mayoi Hachikuji",
+"Rainy Devil",
+"Jagarinawa"
+],
+"correctAnswer": 0
+},
+{
+"id": 82,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Gintama', qual é o nome do grupo de policiais samurais liderado por Kondo Isao?",
+"answers": [
+"Shinsengumi",
+"Mimawarigumi",
+"Yorozuya",
+"Kiheitai",
+"Jouishishi",
+"Tenshouin Naraku"
+],
+"correctAnswer": 0
+},
+{
+"id": 83,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Fate/Zero', qual é a verdadeira identidade do Servo da classe Archer invocado por Tokiomi Tohsaka?",
+"answers": [
+"Gilgamesh",
+"Enkidu",
+"Ozymandias",
+"Karna",
+"Arjuna",
+"Chiron"
+],
+"correctAnswer": 0
+},
+{
+"id": 84,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Mushi-Shi', qual é a cor do cabelo de Ginko?",
+"answers": [
+"Branco",
+"Prateado",
+"Preto",
+"Verde escuro",
+"Castanho",
+"Loiro"
+],
+"correctAnswer": 0
+},
+{
+"id": 85,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Mawaru Penguindrum', qual é o misterioso objeto que Kanba e Shoma procuram para salvar Himari?",
+"answers": [
+"Penguindrum",
+"Diário de Momoka",
+"Survival Strategy",
+"Chapéu do Pinguim",
+"Apple of Fate",
+"Penguin Hat"
+],
+"correctAnswer": 0
+},
+{
+"id": 86,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Baccano!', em qual década ocorre a famosa viagem do trem Flying Pussyfoot?",
+"answers": [
+"Década de 1930",
+"Década de 1910",
+"Década de 1920",
+"Década de 1940",
+"Década de 1950",
+"Virada do século"
+],
+"correctAnswer": 0
+},
+{
+"id": 87,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Kill la Kill', o que é Senketsu?",
+"answers": [
+"Um Kamui feito de Life Fibers",
+"Uma espada viva",
+"Uma roupa feita apenas de tecido comum",
+"Um robô da Academia Honnōji",
+"Uma arma criada pela REVOCS",
+"Um parasita alienígena"
+],
+"correctAnswer": 0
+},
+{
+"id": 88,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Darker than Black', qual é o codinome de Hei no Sindicato?",
+"answers": [
+"BK-201",
+"BK-101",
+"BK-007",
+"BK-999",
+"TK-421",
+"CK-202"
+],
+"correctAnswer": 0
+},
+{
+"id": 89,
+"category": "anime",
+"difficulty": "hard",
+"question": "No anime 'Psycho-Pass', qual é o nome do sistema que controla grande parte da sociedade?",
+"answers": [
+"Sistema Sibyl",
+"Dominator Network",
+"Kasei System",
+"Cymatic Scan",
+"Aura System",
+"Omni-Mind"
+],
+"correctAnswer": 0
+},
+{
+"id": 90,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Hunter x Hunter', qual é o nome do continente proibido além do mundo conhecido?",
+"answers": [
+"Continente Negro",
+"Greed Island",
+"Meteor City",
+"Império Kakin",
+"Lake Mobius",
+"Nerv Continent"
+],
+"correctAnswer": 0
+},
+{
+"id": 91,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Guilty Crown', qual é o nome do vírus responsável pelo caos conhecido como Lost Christmas?",
+"answers": [
+"Vírus Apocalíptico",
+"Cristalização do Vazio",
+"Síndrome de Guin",
+"Anemia de Mana",
+"Praga de Vidro",
+"Shatter Plague"
+],
+"correctAnswer": 0
+},
+{
+"id": 92,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Deadman Wonderland', qual é o nome do poder que permite aos Deadmen manipular o próprio sangue?",
+"answers": [
+"Branch of Sin",
+"Blood Drive",
+"Red Curse",
+"Sinful Blood",
+"Carnival Corpse",
+"Nameless Worm"
+],
+"correctAnswer": 0
+},
+{
+"id": 93,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Great Teacher Onizuka' (GTO), qual era o nome da dupla de motoqueiros da qual Eikichi Onizuka fazia parte?",
+"answers": [
+"Oni-Baku",
+"Tokyo Manji",
+"Black Emperors",
+"Midnight Angels",
+"Syndicate 100",
+"Red Shonan"
+],
+"correctAnswer": 0
+},
+{
+"id": 94,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Space Dandy', qual é o nome da nave de Dandy?",
+"answers": [
+"Aloha Oe",
+"Bebop",
+"Swordfish II",
+"Red Tail",
+"Little Aloha",
+"Hammerhead"
+],
+"correctAnswer": 0
+},
+{
+"id": 95,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Yu-Gi-Oh!', qual é o nome do espírito do Faraó sem memória?",
+"answers": [
+"Atem",
+"Seto",
+"Bakura",
+"Marik",
+"Mahad",
+"Shadi"
+],
+"correctAnswer": 0
+},
+{
+"id": 96,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Trigun', qual é a alcunha de Vash the Stampede?",
+"answers": [
+"O Tufão Humano",
+"O Pistoleiro dos 100 Bilhões",
+"Anjo da Morte",
+"Grave Digger",
+"Rei do Deserto",
+"Vash Solitário"
+],
+"correctAnswer": 0
+},
+{
+"id": 97,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Land of the Lustrous' (Houseki no Kuni), de qual mineral é feita a protagonista Phosphophyllite?",
+"answers": [
+"Fosfofilita",
+"Cinábrio",
+"Diamante",
+"Bort",
+"Jade",
+"Lápis-lazúli"
+],
+"correctAnswer": 0
+},
+{
+"id": 98,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Devilman Crybaby', quem é revelado como a encarnação de Satanás?",
+"answers": [
+"Ryo Asuka",
+"Akira Fudo",
+"Miki Makimura",
+"Koda",
+"Siren",
+"Kaim"
+],
+"correctAnswer": 0
+},
+{
+"id": 99,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Os Cavaleiros do Zodíaco', quem é o fundador da Fundação Graad e responsável pelo projeto dos Cavaleiros?",
+"answers": [
+"Mitsumasa Kido",
+"Saori Kido",
+"Saga de Gêmeos",
+"Mu de Áries",
+"Dohko de Libra",
+"Aiolia de Leão"
+],
+"correctAnswer": 0
+},
+{
+"id": 100,
+"category": "anime",
+"difficulty": "hard",
+"question": "Em 'Sonny Boy', qual é o nome dado ao fenômeno que transporta a escola e seus alunos para uma dimensão alternativa?",
+"answers": [
+"Drift",
+"The Shift",
+"The Void",
+"Unanchored World",
+"Dimensions Clash",
+"Abyss Drop"
+],
+"correctAnswer": 0
+}
 ]

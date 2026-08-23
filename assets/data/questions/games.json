@@ -1,56 +1,1502 @@
 [
-  {
-    "id": 1,
-    "category": "games",
-    "difficulty": "easy",
-    "question": "Qual empresa desenvolveu 'The Legend of Zelda'?",
-    "answers": ["Nintendo", "Sony", "Microsoft", "Sega", "Capcom", "Konami"],
-    "correctAnswer": 0,
-    "explanation": "The Legend of Zelda é uma franquia da Nintendo."
-  },
-  {
-    "id": 2,
-    "category": "games",
-    "difficulty": "easy",
-    "question": "Em 'Minecraft', qual é o nome do chefe do Nether?",
-    "answers": ["Wither", "Ender Dragon", "Blaze", "Ghast", "Piglin", "Zombified Piglin"],
-    "correctAnswer": 0,
-    "explanation": "O Wither é o chefe do Nether."
-  },
-  {
-    "id": 3,
-    "category": "games",
-    "difficulty": "medium",
-    "question": "Qual é o protagonista de 'Hollow Knight'?",
-    "answers": ["The Knight", "Hornet", "The Hollow", "The King", "The Vessel", "The Pale King"],
-    "correctAnswer": 0,
-    "explanation": "O jogador controla The Knight."
-  },
-  {
-    "id": 4,
-    "category": "games",
-    "difficulty": "medium",
-    "question": "Qual é o nome do mundo principal em 'The Witcher'?",
-    "answers": ["The Continent", "Skyrim", "Tamriel", "Midgard", "Azeroth", "Westeros"],
-    "correctAnswer": 0,
-    "explanation": "Os jogos se passam no continente."
-  },
-  {
-    "id": 5,
-    "category": "games",
-    "difficulty": "hard",
-    "question": "Em 'Dark Souls', qual é o nome do Cavaleiro de Astora?",
-    "answers": ["Oscar", "Solaire", "Artorias", "Ornstein", "Smough", "Gwyn"],
-    "correctAnswer": 0,
-    "explanation": "Oscar é o Cavaleiro de Astora."
-  },
-  {
-    "id": 6,
-    "category": "games",
-    "difficulty": "hard",
-    "question": "Qual é o nome da inteligência artificial em 'Portal'?",
-    "answers": ["GLaDOS", "Cave Johnson", "Wheatley", "Atlas", "P-Body", "Turret"],
-    "correctAnswer": 0,
-    "explanation": "GLaDOS é a IA antagonista."
-  }
+{
+"id": 1,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome do encanador mais famoso da Nintendo?",
+"answers": [
+"Mario",
+"Luigi",
+"Wario",
+"Yoshi",
+"Toad",
+"Bowser"
+],
+"correctAnswer": 0
+},
+{
+"id": 2,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome do irmão de Mario?",
+"answers": [
+"Luigi",
+"Wario",
+"Toad",
+"Yoshi",
+"Waluigi",
+"Bowser"
+],
+"correctAnswer": 0
+},
+{
+"id": 3,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome do protagonista da série 'The Legend of Zelda'?",
+"answers": [
+"Link",
+"Zelda",
+"Ganondorf",
+"Epona",
+"Ganon",
+"Impa"
+],
+"correctAnswer": 0
+},
+{
+"id": 4,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome da princesa que dá título à série 'The Legend of Zelda'?",
+"answers": [
+"Zelda",
+"Peach",
+"Daisy",
+"Samus",
+"Midna",
+"Impa"
+],
+"correctAnswer": 0
+},
+{
+"id": 5,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual personagem da Nintendo usa uma roupa verde e é conhecido por sua velocidade?",
+"answers": [
+"Sonic",
+"Mario",
+"Kirby",
+"Donkey Kong",
+"Fox McCloud",
+"Captain Falcon"
+],
+"correctAnswer": 0
+},
+{
+"id": 6,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome do personagem principal de 'Sonic the Hedgehog'?",
+"answers": [
+"Sonic",
+"Tails",
+"Knuckles",
+"Shadow",
+"Silver",
+"Eggman"
+],
+"correctAnswer": 0
+},
+{
+"id": 7,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é a espécie do protagonista de 'Kirby'?",
+"answers": [
+"Uma pequena criatura rosa",
+"Um robô",
+"Um humano",
+"Um ouriço",
+"Um dragão",
+"Um fantasma"
+],
+"correctAnswer": 0
+},
+{
+"id": 8,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome do Pokémon mascote mais famoso da franquia?",
+"answers": [
+"Pikachu",
+"Charizard",
+"Eevee",
+"Meowth",
+"Bulbasaur",
+"Squirtle"
+],
+"correctAnswer": 0
+},
+{
+"id": 9,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o objetivo principal em 'Minecraft' no modo tradicional de sobrevivência?",
+"answers": [
+"Sobreviver e explorar um mundo gerado por blocos",
+"Vencer uma corrida",
+"Capturar todos os Pokémon",
+"Derrotar outros jogadores obrigatoriamente",
+"Construir apenas castelos",
+"Completar uma campanha linear"
+],
+"correctAnswer": 0
+},
+{
+"id": 10,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual material é necessário para criar uma bancada de trabalho em 'Minecraft'?",
+"answers": [
+"Tábuas de madeira",
+"Diamantes",
+"Ferro",
+"Obsidiana",
+"Redstone",
+"Esmeraldas"
+],
+"correctAnswer": 0
+},
+{
+"id": 11,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome do protagonista de 'God of War'?",
+"answers": [
+"Kratos",
+"Atreus",
+"Baldur",
+"Odin",
+"Zeus",
+"Ares"
+],
+"correctAnswer": 0
+},
+{
+"id": 12,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome do filho de Kratos em 'God of War' de 2018?",
+"answers": [
+"Atreus",
+"Baldur",
+"Mimir",
+"Sindri",
+"Brok",
+"Tyr"
+],
+"correctAnswer": 0
+},
+{
+"id": 13,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome do protagonista de 'Red Dead Redemption 2'?",
+"answers": [
+"Arthur Morgan",
+"John Marston",
+"Dutch van der Linde",
+"Bill Williamson",
+"Micah Bell",
+"Sadie Adler"
+],
+"correctAnswer": 0
+},
+{
+"id": 14,
+"category": "games",
+"difficulty": "easy",
+"question": "Em 'Grand Theft Auto V', qual cidade fictícia serve como principal cenário?",
+"answers": [
+"Los Santos",
+"Vice City",
+"Liberty City",
+"San Fierro",
+"Las Venturas",
+"Blaine City"
+],
+"correctAnswer": 0
+},
+{
+"id": 15,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome do protagonista de 'Halo' conhecido como Master Chief?",
+"answers": [
+"John-117",
+"Cortana",
+"Captain Keyes",
+"Arbiter",
+"Noble Six",
+"Jun"
+],
+"correctAnswer": 0
+},
+{
+"id": 16,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome da inteligência artificial que acompanha Master Chief em 'Halo'?",
+"answers": [
+"Cortana",
+"Samantha",
+"EDI",
+"GLaDOS",
+"Alyx",
+"Gaia"
+],
+"correctAnswer": 0
+},
+{
+"id": 17,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome do protagonista de 'The Witcher 3: Wild Hunt'?",
+"answers": [
+"Geralt de Rívia",
+"Vesemir",
+"Lambert",
+"Eskel",
+"Dandelion",
+"Emhyr"
+],
+"correctAnswer": 0
+},
+{
+"id": 18,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome da personagem que Geralt procura em grande parte de 'The Witcher 3'?",
+"answers": [
+"Ciri",
+"Yennefer",
+"Triss",
+"Keira",
+"Shani",
+"Philippa"
+],
+"correctAnswer": 0
+},
+{
+"id": 19,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome do estúdio responsável por 'Grand Theft Auto'?",
+"answers": [
+"Rockstar Games",
+"Valve",
+"Ubisoft",
+"Naughty Dog",
+"Bungie",
+"Bethesda"
+],
+"correctAnswer": 0
+},
+{
+"id": 20,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome do protagonista de 'Assassin's Creed II'?",
+"answers": [
+"Ezio Auditore",
+"Altaïr Ibn-La'Ahad",
+"Connor Kenway",
+"Edward Kenway",
+"Bayek",
+"Eivor"
+],
+"correctAnswer": 0
+},
+{
+"id": 21,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome da personagem principal de 'Tomb Raider'?",
+"answers": [
+"Lara Croft",
+"Aloy",
+"Ellie",
+"Chloe Frazer",
+"Faith Connors",
+"Kassandra"
+],
+"correctAnswer": 0
+},
+{
+"id": 22,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome da protagonista de 'Horizon Zero Dawn'?",
+"answers": [
+"Aloy",
+"Lara Croft",
+"Ellie",
+"Kassandra",
+"Yennefer",
+"Chloe Frazer"
+],
+"correctAnswer": 0
+},
+{
+"id": 23,
+"category": "games",
+"difficulty": "easy",
+"question": "Em 'The Last of Us', qual é o nome da garota protegida por Joel?",
+"answers": [
+"Ellie",
+"Abby",
+"Tess",
+"Dina",
+"Maria",
+"Riley"
+],
+"correctAnswer": 0
+},
+{
+"id": 24,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome do protagonista adulto de 'The Last of Us'?",
+"answers": [
+"Joel",
+"Tommy",
+"Bill",
+"Sam",
+"Henry",
+"Jesse"
+],
+"correctAnswer": 0
+},
+{
+"id": 25,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual empresa criou a série 'Pokémon' junto com suas parceiras de desenvolvimento?",
+"answers": [
+"Game Freak",
+"Naughty Dog",
+"Capcom",
+"Square Enix",
+"Sega",
+"FromSoftware"
+],
+"correctAnswer": 0
+},
+{
+"id": 26,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome da princesa de 'Super Mario' normalmente associada à cor rosa?",
+"answers": [
+"Peach",
+"Daisy",
+"Rosalina",
+"Zelda",
+"Pauline",
+"Birdo"
+],
+"correctAnswer": 0
+},
+{
+"id": 27,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual personagem da franquia 'Donkey Kong' é um gorila?",
+"answers": [
+"Donkey Kong",
+"Diddy Kong",
+"Funky Kong",
+"Cranky Kong",
+"King K. Rool",
+"Banjo"
+],
+"correctAnswer": 0
+},
+{
+"id": 28,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome do protagonista de 'Metroid'?",
+"answers": [
+"Samus Aran",
+"Ridley",
+"Zero",
+"Dark Samus",
+"Adam",
+"Kraid"
+],
+"correctAnswer": 0
+},
+{
+"id": 29,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome do jogo de luta da Nintendo que reúne personagens de várias franquias?",
+"answers": [
+"Super Smash Bros.",
+"Mario Kart",
+"ARMS",
+"Pokémon Stadium",
+"Nintendo Fighters",
+"All-Star Battle"
+],
+"correctAnswer": 0
+},
+{
+"id": 30,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome do mascote da Valve usado em 'Half-Life'?",
+"answers": [
+"Gordon Freeman",
+"Alyx Vance",
+"Barney Calhoun",
+"The G-Man",
+"Eli Vance",
+"Adrian Shephard"
+],
+"correctAnswer": 0
+},
+{
+"id": 31,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome do protagonista de 'Half-Life'?",
+"answers": [
+"Gordon Freeman",
+"Eli Vance",
+"Barney Calhoun",
+"The G-Man",
+"Adrian Shephard",
+"Isaac Kleiner"
+],
+"correctAnswer": 0
+},
+{
+"id": 32,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome da personagem principal de 'Portal'?",
+"answers": [
+"Chell",
+"GLaDOS",
+"Wheatley",
+"Cave Johnson",
+"Caroline",
+"Alyx"
+],
+"correctAnswer": 0
+},
+{
+"id": 33,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome da inteligência artificial antagonista de 'Portal'?",
+"answers": [
+"GLaDOS",
+"Cortana",
+"SAMOS",
+"EDI",
+"Chell",
+"Wheatley"
+],
+"correctAnswer": 0
+},
+{
+"id": 34,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome do protagonista de 'Doom' conhecido simplesmente como Doom Slayer?",
+"answers": [
+"Doom Slayer",
+"Master Chief",
+"Gordon Freeman",
+"Duke Nukem",
+"BJ Blazkowicz",
+"Marcus Fenix"
+],
+"correctAnswer": 0
+},
+{
+"id": 35,
+"category": "games",
+"difficulty": "easy",
+"question": "Qual é o nome da franquia de luta em que Ryu e Ken são personagens famosos?",
+"answers": [
+"Street Fighter",
+"Tekken",
+"Mortal Kombat",
+"Soulcalibur",
+"King of Fighters",
+"Virtua Fighter"
+],
+"correctAnswer": 0
+},
+{
+"id": 36,
+"category": "games",
+"difficulty": "medium",
+"question": "Qual é o nome da espada lendária mais conhecida de Link?",
+"answers": [
+"Master Sword",
+"Hylian Shield",
+"Four Sword",
+"Kokiri Sword",
+"Goddess Sword",
+"Biggoron Sword"
+],
+"correctAnswer": 0
+},
+{
+"id": 37,
+"category": "games",
+"difficulty": "medium",
+"question": "Em 'The Legend of Zelda: Ocarina of Time', qual é o nome do cavalo de Link?",
+"answers": [
+"Epona",
+"Midna",
+"Navi",
+"Saria",
+"Malon",
+"Fi"
+],
+"correctAnswer": 0
+},
+{
+"id": 38,
+"category": "games",
+"difficulty": "medium",
+"question": "Qual é o nome do principal vilão da série 'The Legend of Zelda'?",
+"answers": [
+"Ganondorf",
+"Vaati",
+"Zant",
+"Majora",
+"Ghirahim",
+"Demise"
+],
+"correctAnswer": 0
+},
+{
+"id": 39,
+"category": "games",
+"difficulty": "medium",
+"question": "Em 'Pokémon', qual tipo possui vantagem sobre o tipo Água?",
+"answers": [
+"Elétrico",
+"Fogo",
+"Pedra",
+"Gelo",
+"Psíquico",
+"Voador"
+],
+"correctAnswer": 0
+},
+{
+"id": 40,
+"category": "games",
+"difficulty": "medium",
+"question": "Qual é a evolução de Pikachu?",
+"answers": [
+"Raichu",
+"Pichu",
+"Electabuzz",
+"Ampharos",
+"Luxray",
+"Jolteon"
+],
+"correctAnswer": 0
+},
+{
+"id": 41,
+"category": "games",
+"difficulty": "medium",
+"question": "Qual é a evolução anterior de Pikachu?",
+"answers": [
+"Pichu",
+"Raichu",
+"Eevee",
+"Magnemite",
+"Plusle",
+"Pawmi"
+],
+"correctAnswer": 0
+},
+{
+"id": 42,
+"category": "games",
+"difficulty": "medium",
+"question": "Em 'Pokémon Red e Blue', qual é a região principal da aventura?",
+"answers": [
+"Kanto",
+"Johto",
+"Hoenn",
+"Sinnoh",
+"Unova",
+"Kalos"
+],
+"correctAnswer": 0
+},
+{
+"id": 43,
+"category": "games",
+"difficulty": "medium",
+"question": "Qual é o nome da região principal de 'Pokémon Gold e Silver'?",
+"answers": [
+"Johto",
+"Kanto",
+"Hoenn",
+"Sinnoh",
+"Unova",
+"Galar"
+],
+"correctAnswer": 0
+},
+{
+"id": 44,
+"category": "games",
+"difficulty": "medium",
+"question": "Em 'Dark Souls', qual elemento de gameplay é conhecido por permitir que o jogador retorne após morrer?",
+"answers": [
+"Bonfires",
+"Shrines",
+"Checkpoints de cristal",
+"Fast Travel Stations",
+"Grace Stones",
+"Dream Wells"
+],
+"correctAnswer": 0
+},
+{
+"id": 45,
+"category": "games",
+"difficulty": "medium",
+"question": "Qual estúdio desenvolveu 'Dark Souls'?",
+"answers": [
+"FromSoftware",
+"Capcom",
+"Square Enix",
+"Bandai Namco",
+"Konami",
+"PlatinumGames"
+],
+"correctAnswer": 0
+},
+{
+"id": 46,
+"category": "games",
+"difficulty": "medium",
+"question": "Qual é o nome do protagonista de 'Sekiro: Shadows Die Twice'?",
+"answers": [
+"Wolf",
+"Genichiro Ashina",
+"Isshin Ashina",
+"Kuro",
+"Owl",
+"Emma"
+],
+"correctAnswer": 0
+},
+{
+"id": 47,
+"category": "games",
+"difficulty": "medium",
+"question": "Qual é o nome do protagonista de 'Elden Ring'?",
+"answers": [
+"Tarnished",
+"Radahn",
+"Godfrey",
+"Melina",
+"Ranni",
+"Malenia"
+],
+"correctAnswer": 0
+},
+{
+"id": 48,
+"category": "games",
+"difficulty": "medium",
+"question": "Em 'Elden Ring', qual personagem entrega ao jogador o Torrent?",
+"answers": [
+"Melina",
+"Ranni",
+"Malenia",
+"Renna",
+"Fia",
+"Nepheli Loux"
+],
+"correctAnswer": 0
+},
+{
+"id": 49,
+"category": "games",
+"difficulty": "medium",
+"question": "Qual é o nome do semideus conhecido como Starscourge em 'Elden Ring'?",
+"answers": [
+"General Radahn",
+"Godrick",
+"Morgott",
+"Rykard",
+"Mohg",
+"Maliketh"
+],
+"correctAnswer": 0
+},
+{
+"id": 50,
+"category": "games",
+"difficulty": "medium",
+"question": "Em 'The Witcher 3', qual escola de bruxos é associada a Geralt?",
+"answers": [
+"Escola do Lobo",
+"Escola do Gato",
+"Escola do Urso",
+"Escola da Víbora",
+"Escola do Grifo",
+"Escola da Manticora"
+],
+"correctAnswer": 0
+},
+{
+"id": 51,
+"category": "games",
+"difficulty": "medium",
+"question": "Qual é o nome do cavalo de Geralt em 'The Witcher 3'?",
+"answers": [
+"Roach",
+"Kelpie",
+"Epona",
+"Shadowfax",
+"Bucephalus",
+"Agro"
+],
+"correctAnswer": 0
+},
+{
+"id": 52,
+"category": "games",
+"difficulty": "medium",
+"question": "Em 'Cyberpunk 2077', qual é o nome do personagem interpretado por Keanu Reeves?",
+"answers": [
+"Johnny Silverhand",
+"V",
+"Jackie Welles",
+"Solomon Reed",
+"Adam Smasher",
+"Dexter DeShawn"
+],
+"correctAnswer": 0
+},
+{
+"id": 53,
+"category": "games",
+"difficulty": "medium",
+"question": "Qual é o nome da cidade onde se passa 'Cyberpunk 2077'?",
+"answers": [
+"Night City",
+"Night Town",
+"Night City 2077",
+"Neo Tokyo",
+"Night Harbor",
+"Cyber City"
+],
+"correctAnswer": 0
+},
+{
+"id": 54,
+"category": "games",
+"difficulty": "medium",
+"question": "Em 'Mass Effect', qual é o sobrenome do protagonista personalizável?",
+"answers": [
+"Shepard",
+"Anderson",
+"Harper",
+"Alden",
+"Reaper",
+"Vega"
+],
+"correctAnswer": 0
+},
+{
+"id": 55,
+"category": "games",
+"difficulty": "medium",
+"question": "Qual é o nome da inteligência artificial da nave Normandy em 'Mass Effect'?",
+"answers": [
+"EDI",
+"Cortana",
+"GLaDOS",
+"SAM",
+"Cassandra",
+"JARVIS"
+],
+"correctAnswer": 0
+},
+{
+"id": 56,
+"category": "games",
+"difficulty": "medium",
+"question": "Em 'Fallout: New Vegas', qual cidade é conhecida pelo enorme cassino Lucky 38?",
+"answers": [
+"New Vegas",
+"Goodneighbor",
+"Megaton",
+"Diamond City",
+"Rivet City",
+"Boulder City"
+],
+"correctAnswer": 0
+},
+{
+"id": 57,
+"category": "games",
+"difficulty": "medium",
+"question": "Em 'Fallout 4', qual é o nome do cão que pode acompanhar o jogador?",
+"answers": [
+"Dogmeat",
+"Rex",
+"Dogmeat Jr.",
+"Codsworth",
+"Strong",
+"Nick"
+],
+"correctAnswer": 0
+},
+{
+"id": 58,
+"category": "games",
+"difficulty": "medium",
+"question": "Qual é o nome do reino principal de 'Super Mario' em muitos dos seus jogos?",
+"answers": [
+"Mushroom Kingdom",
+"Hyrule",
+"Dream Land",
+"Pop Star",
+"Sarasaland",
+"Dinosaur Land"
+],
+"correctAnswer": 0
+},
+{
+"id": 59,
+"category": "games",
+"difficulty": "medium",
+"question": "Qual personagem de 'Mario' é conhecido por ser uma versão vilanesca de Mario?",
+"answers": [
+"Wario",
+"Waluigi",
+"Bowser",
+"Boo",
+"King Boo",
+"Diddy Kong"
+],
+"correctAnswer": 0
+},
+{
+"id": 60,
+"category": "games",
+"difficulty": "medium",
+"question": "Qual é o nome do rival de Sonic criado pelo Dr. Eggman em várias histórias?",
+"answers": [
+"Metal Sonic",
+"Silver",
+"Knuckles",
+"Tails",
+"Shadow",
+"Infinite"
+],
+"correctAnswer": 0
+},
+{
+"id": 61,
+"category": "games",
+"difficulty": "medium",
+"question": "Qual é o nome do personagem de 'Final Fantasy VII' que empunha uma enorme espada?",
+"answers": [
+"Cloud Strife",
+"Sephiroth",
+"Zack Fair",
+"Barret Wallace",
+"Vincent Valentine",
+"Cid Highwind"
+],
+"correctAnswer": 0
+},
+{
+"id": 62,
+"category": "games",
+"difficulty": "medium",
+"question": "Qual é o nome do principal vilão de 'Final Fantasy VII'?",
+"answers": [
+"Sephiroth",
+"Cloud Strife",
+"Rufus Shinra",
+"Genesis",
+"Hojo",
+"Zack Fair"
+],
+"correctAnswer": 0
+},
+{
+"id": 63,
+"category": "games",
+"difficulty": "medium",
+"question": "Qual é o nome da cidade onde começa a história de 'Final Fantasy VII' original?",
+"answers": [
+"Midgar",
+"Nibelheim",
+"Junon",
+"Cosmo Canyon",
+"Gold Saucer",
+"Wutai"
+],
+"correctAnswer": 0
+},
+{
+"id": 64,
+"category": "games",
+"difficulty": "medium",
+"question": "Qual é o nome da empresa controladora de Midgar em 'Final Fantasy VII'?",
+"answers": [
+"Shinra Electric Power Company",
+"Avalanche Corporation",
+"Nibelheim Industries",
+"Wutai Empire",
+"Junon Energy",
+"Materia Labs"
+],
+"correctAnswer": 0
+},
+{
+"id": 65,
+"category": "games",
+"difficulty": "medium",
+"question": "Em 'Resident Evil', qual cidade é fortemente associada ao incidente inicial da série?",
+"answers": [
+"Raccoon City",
+"Silent Hill",
+"Rapture",
+"Raccoon Town",
+"Midwich",
+"Derceto"
+],
+"correctAnswer": 0
+},
+{
+"id": 66,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'The Legend of Zelda: Majora's Mask', qual objeto dá nome ao jogo?",
+"answers": [
+"Majora's Mask",
+"Mirror Shield",
+"Mask of Truth",
+"Goron Mask",
+"Zora Mask",
+"Fierce Deity Mask"
+],
+"correctAnswer": 0
+},
+{
+"id": 67,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'The Legend of Zelda: Breath of the Wild', qual é o nome da antiga tecnologia usada pelos Guardiões?",
+"answers": [
+"Tecnologia Sheikah",
+"Tecnologia Zonai",
+"Tecnologia Gerudo",
+"Tecnologia Hyliana",
+"Tecnologia Goron",
+"Tecnologia Kokiri"
+],
+"correctAnswer": 0
+},
+{
+"id": 68,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'The Legend of Zelda: Breath of the Wild', qual é o nome do castelo que fica no centro de Hyrule?",
+"answers": [
+"Hyrule Castle",
+"Castle Town",
+"Temple of Time",
+"Gerudo Fortress",
+"Akkala Citadel",
+"Lurelin Castle"
+],
+"correctAnswer": 0
+},
+{
+"id": 69,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Bloodborne', qual cidade serve como principal cenário da aventura?",
+"answers": [
+"Yharnam",
+"Lordran",
+"Drangleic",
+"The Lands Between",
+"Boletaria",
+"Hallownest"
+],
+"correctAnswer": 0
+},
+{
+"id": 70,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Dark Souls', qual é o nome do reino onde ocorre a maior parte do primeiro jogo?",
+"answers": [
+"Lordran",
+"Lothric",
+"Drangleic",
+"Yharnam",
+"Boletaria",
+"Ashina"
+],
+"correctAnswer": 0
+},
+{
+"id": 71,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Dark Souls III', qual é o nome do reino em que a história principal se passa?",
+"answers": [
+"Lothric",
+"Lordran",
+"Drangleic",
+"Yharnam",
+"Boletaria",
+"Ashina"
+],
+"correctAnswer": 0
+},
+{
+"id": 72,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Sekiro: Shadows Die Twice', qual é o nome do jovem senhor protegido pelo protagonista?",
+"answers": [
+"Kuro",
+"Genichiro",
+"Isshin",
+"Emma",
+"Owl",
+"Doujun"
+],
+"correctAnswer": 0
+},
+{
+"id": 73,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Elden Ring', qual é o nome da personagem que concede ao jogador a capacidade de usar Torrent?",
+"answers": [
+"Melina",
+"Ranni",
+"Malenia",
+"Fia",
+"Renna",
+"Nepheli Loux"
+],
+"correctAnswer": 0
+},
+{
+"id": 74,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Elden Ring', qual é o nome da espada colossal associada a Maliketh?",
+"answers": [
+"Black Blade",
+"Moonlight Greatsword",
+"Dark Moon Greatsword",
+"Blasphemous Blade",
+"Starscourge Greatsword",
+"Golden Order Greatsword"
+],
+"correctAnswer": 0
+},
+{
+"id": 75,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'The Witcher 3', qual é o nome da organização de feiticeiras conhecida por incluir Yennefer?",
+"answers": [
+"Lodge of Sorceresses",
+"Wild Hunt",
+"Redanian Brotherhood",
+"Viper School",
+"Church of the Eternal Fire",
+"Nilfgaardian Council"
+],
+"correctAnswer": 0
+},
+{
+"id": 76,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Cyberpunk 2077', qual é o nome do grupo de mercenários ao qual V pode se associar em diferentes momentos da história?",
+"answers": [
+"Aldecaldos",
+"Tyger Claws",
+"Maelstrom",
+"Valentinos",
+"Moxes",
+"Animals"
+],
+"correctAnswer": 0
+},
+{
+"id": 77,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'The Last of Us', qual é o nome da organização que tenta produzir uma cura para a infecção?",
+"answers": [
+"Vaga-lumes",
+"FEDRA",
+"Serafitas",
+"WLF",
+"Caçadores",
+"Vigilantes"
+],
+"correctAnswer": 0
+},
+{
+"id": 78,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Halo', qual é o nome da espécie alienígena que faz parte da aliança conhecida como Covenant?",
+"answers": [
+"Elites",
+"Prometheans",
+"Flood",
+"Forerunners",
+"Brutes",
+"Sentinels"
+],
+"correctAnswer": 0
+},
+{
+"id": 79,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Half-Life 2', qual é o nome da organização alienígena que domina a Terra?",
+"answers": [
+"Combine",
+"Black Mesa",
+"HECU",
+"Aperture",
+"Xen",
+"Resonance"
+],
+"correctAnswer": 0
+},
+{
+"id": 80,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Portal 2', qual é o nome do núcleo de personalidade extremamente falante que acompanha Chell?",
+"answers": [
+"Wheatley",
+"GLaDOS",
+"Atlas",
+"P-body",
+"Cave Johnson",
+"Turret"
+],
+"correctAnswer": 0
+},
+{
+"id": 81,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Mass Effect 2', qual é a raça de Legion?",
+"answers": [
+"Geth",
+"Krogan",
+"Turian",
+"Quarian",
+"Asari",
+"Salarian"
+],
+"correctAnswer": 0
+},
+{
+"id": 82,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Mass Effect', qual é o nome da raça de Wrex?",
+"answers": [
+"Krogan",
+"Turian",
+"Quarian",
+"Geth",
+"Salarian",
+"Drell"
+],
+"correctAnswer": 0
+},
+{
+"id": 83,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Final Fantasy VII', qual é o nome da megaempresa responsável por explorar a energia Mako?",
+"answers": [
+"Shinra Electric Power Company",
+"Avalanche",
+"Wutai Corporation",
+"Midgar Industries",
+"Mako Dynamics",
+"Jenova Labs"
+],
+"correctAnswer": 0
+},
+{
+"id": 84,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Final Fantasy VII', qual é o nome da organização de resistência contra a Shinra da qual Cloud participa?",
+"answers": [
+"Avalanche",
+"Turks",
+"SOLDIER",
+"Deepground",
+"WEAPON",
+"Wutai"
+],
+"correctAnswer": 0
+},
+{
+"id": 85,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Resident Evil 2', qual é o nome da cidade onde ocorre o surto principal?",
+"answers": [
+"Raccoon City",
+"Rockfort Island",
+"Arklay",
+"Dulvey",
+"Raccoon County",
+"Kijuju"
+],
+"correctAnswer": 0
+},
+{
+"id": 86,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Resident Evil 4', qual é o nome do agente enviado para resgatar Ashley Graham?",
+"answers": [
+"Leon S. Kennedy",
+"Chris Redfield",
+"Jill Valentine",
+"Barry Burton",
+"Ethan Winters",
+"Carlos Oliveira"
+],
+"correctAnswer": 0
+},
+{
+"id": 87,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Metal Gear Solid 3', qual é o codinome de Naked Snake?",
+"answers": [
+"Big Boss",
+"Solid Snake",
+"Liquid Snake",
+"Venom Snake",
+"Solidus Snake",
+"Raiden"
+],
+"correctAnswer": 0
+},
+{
+"id": 88,
+"category": "games",
+"difficulty": "hard",
+"question": "Qual é o nome do protagonista principal da série 'Metal Gear' conhecido como Solid Snake?",
+"answers": [
+"David",
+"Jack",
+"John",
+"Eli",
+"Naked Snake",
+"Venom"
+],
+"correctAnswer": 0
+},
+{
+"id": 89,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'StarCraft', qual raça é conhecida por utilizar tecnologia avançada e unidades psíquicas?",
+"answers": [
+"Protoss",
+"Zerg",
+"Terran",
+"UED",
+"Xel'Naga",
+"Dominion"
+],
+"correctAnswer": 0
+},
+{
+"id": 90,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Warcraft III', qual personagem se torna o Lich King?",
+"answers": [
+"Arthas Menethil",
+"Illidan Stormrage",
+"Thrall",
+"Jaina Proudmoore",
+"Sylvanas Windrunner",
+"Kel'Thuzad"
+],
+"correctAnswer": 0
+},
+{
+"id": 91,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Diablo II', qual é o nome do irmão de Diablo e Baal?",
+"answers": [
+"Mephisto",
+"Tyrael",
+"Andariel",
+"Duriel",
+"Azmodan",
+"Belial"
+],
+"correctAnswer": 0
+},
+{
+"id": 92,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'The Elder Scrolls V: Skyrim', qual é o título dado ao protagonista?",
+"answers": [
+"Dragonborn",
+"Nerevarine",
+"Hero of Kvatch",
+"Champion of Cyrodiil",
+"Dragon Slayer",
+"Dovahkiin Lord"
+],
+"correctAnswer": 0
+},
+{
+"id": 93,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'The Elder Scrolls V: Skyrim', qual é o nome da língua dos dragões?",
+"answers": [
+"Dovahzul",
+"Ayleidoon",
+"Daedric",
+"Aldmeris",
+"Ta'agra",
+"Dunmeri"
+],
+"correctAnswer": 0
+},
+{
+"id": 94,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'World of Warcraft', qual é o nome do lendário príncipe da ruína associado à queda de Lordaeron?",
+"answers": [
+"Arthas Menethil",
+"Varian Wrynn",
+"Anduin Wrynn",
+"Kael'thas",
+"Illidan Stormrage",
+"Bolvar Fordragon"
+],
+"correctAnswer": 0
+},
+{
+"id": 95,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Minecraft', qual é o nome da dimensão onde o jogador encontra o Ender Dragon?",
+"answers": [
+"The End",
+"Nether",
+"Overworld",
+"Aether",
+"Void",
+"Deep Dark"
+],
+"correctAnswer": 0
+},
+{
+"id": 96,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Minecraft', qual chefe pode ser invocado usando três cabeças de Wither Skeleton?",
+"answers": [
+"Wither",
+"Ender Dragon",
+"Warden",
+"Elder Guardian",
+"Ravager",
+"Evoker"
+],
+"correctAnswer": 0
+},
+{
+"id": 97,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Terraria', qual é o chefe considerado o principal grande marco para o início do Hardmode?",
+"answers": [
+"Wall of Flesh",
+"Eye of Cthulhu",
+"Skeletron",
+"The Destroyer",
+"Moon Lord",
+"Plantera"
+],
+"correctAnswer": 0
+},
+{
+"id": 98,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Hollow Knight', qual é o nome do reino subterrâneo explorado pelo protagonista?",
+"answers": [
+"Hallownest",
+"Dirtmouth",
+"Deepnest",
+"Kingdom's Edge",
+"Forgotten Crossroads",
+"Greenpath"
+],
+"correctAnswer": 0
+},
+{
+"id": 99,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Hades', quem é o protagonista que tenta escapar do Submundo?",
+"answers": [
+"Zagreus",
+"Hades",
+"Thanatos",
+"Orpheus",
+"Achilles",
+"Hypnos"
+],
+"correctAnswer": 0
+},
+{
+"id": 100,
+"category": "games",
+"difficulty": "hard",
+"question": "Em 'Stardew Valley', qual é o principal local para onde o protagonista se muda para começar uma nova vida?",
+"answers": [
+"Stardew Valley",
+"Pelican Town",
+"Zuzu City",
+"Ginger Island",
+"Calico Desert",
+"Joja Town"
+],
+"correctAnswer": 0
+}
 ]
