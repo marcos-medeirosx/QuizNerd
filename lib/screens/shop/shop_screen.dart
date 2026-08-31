@@ -14,7 +14,7 @@ class _ShopScreenState extends State<ShopScreen> {
   // Nomes amigáveis dos itens (para exibir requisitos)
   final Map<String, String> itemNames = {
     'life_extra': '❤️ Vida Extra',
-    'skip_3': '⏭️ 3 Pulos',
+    'skip_1': '⏭️ 1 Pulo',
     'remove_1_permanent': '❌ Remover 1 errada (a cada 10 perguntas)',
     'remove_2_permanent': '❌❌ Remover 2 erradas (a cada 10 perguntas)',
     'xp_boost': '⚡ Bônus XP +50%',
@@ -34,9 +34,9 @@ class _ShopScreenState extends State<ShopScreen> {
       requirement: null,
     ),
     ShopItem(
-      id: 'skip_3',
-      name: '⏭️ 3 Pulos',
-      description: 'Ganhe 3 pulos de pergunta (consumíveis).',
+      id: 'skip_1',
+      name: '⏭️ 1 Pulo',
+      description: 'Ganhe 1 pulo de pergunta (consumível).',
       price: 30,
       type: ShopItemType.consumable,
       icon: Icons.skip_next,

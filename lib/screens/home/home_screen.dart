@@ -1,35 +1,13 @@
+// lib/screens/home/home_screen.dart
+
 import 'package:flutter/material.dart';
 import '../difficulty/difficulty_screen.dart';
 import '../settings/settings_screen.dart';
 import '../shop/shop_screen.dart';
 import '../../core/storage_service.dart';
 
-class HomeScreen extends StatefulWidget {
+class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
-
-  @override
-  State<HomeScreen> createState() => _HomeScreenState();
-}
-
-class _HomeScreenState extends State<HomeScreen> {
-  final StorageService storage = StorageService();
-  int _xpTotal = 0;
-  int _maxLevel = 1;
-
-  @override
-  void initState() {
-    super.initState();
-    _loadStats();
-  }
-
-  Future<void> _loadStats() async {
-    final xpTotal = storage.getXpTotal();
-    final maxLevel = storage.getMaxLevel();
-    setState(() {
-      _xpTotal = xpTotal;
-      _maxLevel = maxLevel;
-    });
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -51,36 +29,26 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                // Espaço superior para centralizar verticalmente
-                const Spacer(flex: 1),
-
-                // Ranking
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    const Icon(Icons.emoji_events, color: Colors.amber, size: 32),
-                    const SizedBox(width: 8),
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          'Nível Máx: $_maxLevel',
-                          style: const TextStyle(color: Colors.white, fontSize: 18),
-                        ),
-                        Text(
-                          'XP Total: $_xpTotal',
-                          style: TextStyle(color: Colors.grey[400], fontSize: 14),
-                        ),
-                      ],
-                    ),
-                  ],
+                // ---- RANKING (FUTUREBUILDER COM CORREÇÃO) ----
+                FutureBuilder<List<Map<String, dynamic>>>(
+                  future: StorageService().getRankingAsync(), // agora é Future
+                  builder: (context, snapshot) {
+                    if (snapshot.connectionState == ConnectionState.waiting) {
+                      return const SizedBox.shrink();
+                    }
+                    if (!snapshot.hasData || snapshot.data!.isEmpty) {
+                      return const SizedBox.shrink();
+                    }
+                    final ranking = snapshot.data!;
+                    return _buildRankingWidget(ranking);
+                  },
                 ),
+                const SizedBox(height: 16),
 
-                const SizedBox(height: 32),
-
-                // Botões de categorias + BUILD
+                // ---- BOTÕES CENTRALIZADOS ----
                 Center(
                   child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       _buildCategoryButton(
                         context: context,
@@ -118,15 +86,13 @@ class _HomeScreenState extends State<HomeScreen> {
                         color: Colors.orange.shade600,
                       ),
                       const SizedBox(height: 16),
-                      // Botão BUILD com mesmo estilo
                       _buildBuildButton(context),
                     ],
                   ),
                 ),
+                const Spacer(flex: 1),
 
-                const Spacer(flex: 2),
-
-                // Configurações
+                // ---- CONFIGURAÇÕES ----
                 TextButton(
                   onPressed: () {
                     Navigator.push(
@@ -158,6 +124,88 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
+  // ---------- WIDGET RANKING (TOP 3) ----------
+  Widget _buildRankingWidget(List<Map<String, dynamic>> ranking) {
+    return Column(
+      children: [
+        const Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(Icons.emoji_events, color: Colors.amber, size: 28),
+            SizedBox(width: 8),
+            Text(
+              '🏆 TOP 3',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ],
+        ),
+        const SizedBox(height: 8),
+        SizedBox(
+          width: 300,
+          child: Column(
+            children: ranking.asMap().entries.map((entry) {
+              int index = entry.key;
+              var item = entry.value;
+              String name = item['name'] ?? 'Anônimo';
+              int xp = item['xp'] ?? 0;
+              int level = item['level'] ?? 1;
+
+              Color medalColor;
+              if (index == 0) medalColor = Colors.amber.shade700;
+              else if (index == 1) medalColor = Colors.grey.shade400;
+              else medalColor = Colors.brown.shade300;
+
+              return Padding(
+                padding: const EdgeInsets.symmetric(vertical: 4.0),
+                child: Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                  decoration: BoxDecoration(
+                    color: Colors.grey[900],
+                    borderRadius: BorderRadius.circular(10),
+                    border: Border.all(color: medalColor.withOpacity(0.5)),
+                  ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Row(
+                        children: [
+                          Icon(Icons.emoji_events, color: medalColor, size: 20),
+                          const SizedBox(width: 8),
+                          Text(
+                            '#${index + 1} $name',
+                            style: const TextStyle(color: Colors.white, fontSize: 16),
+                          ),
+                        ],
+                      ),
+                      Row(
+                        children: [
+                          Text(
+                            'Nv.$level',
+                            style: TextStyle(color: Colors.grey[400], fontSize: 14),
+                          ),
+                          const SizedBox(width: 16),
+                          Text(
+                            '${xp} XP',
+                            style: const TextStyle(color: Colors.amber, fontSize: 14),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+              );
+            }).toList(),
+          ),
+        ),
+      ],
+    );
+  }
+
+  // ---------- BOTÃO DE CATEGORIA ----------
   Widget _buildCategoryButton({
     required BuildContext context,
     required String icon,
@@ -214,6 +262,7 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
+  // ---------- BOTÃO BUILD ----------
   Widget _buildBuildButton(BuildContext context) {
     return SizedBox(
       width: 280,

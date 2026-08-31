@@ -5,7 +5,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import '../../models/question.dart';
 import '../../core/storage_service.dart';
-
+import '../home/home_screen.dart';
 class QuizScreen extends StatefulWidget {
   final List<ProcessedQuestion> questions;
 
@@ -81,7 +81,7 @@ class _QuizScreenState extends State<QuizScreen> with SingleTickerProviderStateM
     _hasCoinBoost = purchased.contains('coin_boost');
     _hasRegenBoost = purchased.contains('regen_boost');
 
-    _skipCount = storage.getConsumableCount('skip_3');
+    _skipCount = storage.getConsumableCount('skip_1');
     _secondChanceCount = storage.getConsumableCount('second_chance_2');
 
     _permanentRemoveCounter = storage.getPermanentCounter('remove_1_permanent');
@@ -212,7 +212,7 @@ class _QuizScreenState extends State<QuizScreen> with SingleTickerProviderStateM
     _timerActive = false;
     setState(() {
       _skipCount--;
-      storage.useConsumable('skip_3');
+      storage.useConsumable('skip_1');
       _answered = true;
       _selectedOptionIndex = null;
     });
@@ -468,51 +468,89 @@ class _QuizScreenState extends State<QuizScreen> with SingleTickerProviderStateM
     });
   }
 
-  void _showGameOverDialog() {
-    // Garantir que o XP total e nível máximo sejam salvos mesmo na derrota
-    // Já salvamos a cada acerto, mas reforçamos.
-    showDialog(
-      context: context,
-      barrierDismissible: false,
-      builder: (context) => AlertDialog(
-        backgroundColor: Colors.grey[900],
-        title: const Text('💀 Fim de Jogo', style: TextStyle(color: Colors.white)),
-        content: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Text(
-              'Você perdeu todas as vidas!',
-              style: TextStyle(color: Colors.grey[400]),
+
+void _showGameOverDialog() {
+  final TextEditingController nomeController = TextEditingController();
+  showDialog(
+    context: context,
+    barrierDismissible: false,
+    builder: (context) => AlertDialog(
+      backgroundColor: Colors.grey[900],
+      title: const Text('💀 Fim de Jogo', style: TextStyle(color: Colors.white)),
+      content: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Text(
+            'Você perdeu todas as vidas!',
+            style: TextStyle(color: Colors.grey[400]),
+          ),
+          const SizedBox(height: 8),
+          Text(
+            'Acertos: $_score de ${widget.questions.length}',
+            style: const TextStyle(color: Colors.white, fontSize: 18),
+          ),
+          const SizedBox(height: 8),
+          Text(
+            'Nível alcançado: $_level',
+            style: const TextStyle(color: Colors.white, fontSize: 16),
+          ),
+          const SizedBox(height: 8),
+          Text(
+            'Moedas: ${storage.getMoedas()}',
+            style: TextStyle(color: Colors.grey[400], fontSize: 14),
+          ),
+          const SizedBox(height: 16),
+          const Divider(color: Colors.grey),
+          const SizedBox(height: 8),
+          const Text(
+            'Digite seu nome para o ranking:',
+            style: TextStyle(color: Colors.white),
+          ),
+          const SizedBox(height: 8),
+          TextField(
+            controller: nomeController,
+            style: const TextStyle(color: Colors.white),
+            decoration: InputDecoration(
+              hintText: 'Seu nome...',
+              hintStyle: TextStyle(color: Colors.grey[500]),
+              enabledBorder: UnderlineInputBorder(
+                borderSide: BorderSide(color: Colors.grey[700]!),
+              ),
+              focusedBorder: UnderlineInputBorder(
+                borderSide: BorderSide(color: Colors.blue[700]!),
+              ),
             ),
-            const SizedBox(height: 8),
-            Text(
-              'Acertos: $_score de ${widget.questions.length}',
-              style: const TextStyle(color: Colors.white, fontSize: 18),
-            ),
-            const SizedBox(height: 8),
-            Text(
-              'Nível alcançado: $_level',
-              style: const TextStyle(color: Colors.white, fontSize: 16),
-            ),
-            const SizedBox(height: 8),
-            Text(
-              'Moedas: ${storage.getMoedas()}',
-              style: TextStyle(color: Colors.grey[400], fontSize: 14),
-            ),
-          ],
-        ),
-        actions: [
-          TextButton(
-            onPressed: () {
-              Navigator.pop(context);
-              Navigator.pop(context);
-            },
-            child: const Text('Voltar', style: TextStyle(color: Colors.blue)),
+            autofocus: true,
           ),
         ],
       ),
-    );
-  }
+      actions: [
+        TextButton(
+          onPressed: () {
+            String nome = nomeController.text.trim();
+            if (nome.isEmpty) {
+              ScaffoldMessenger.of(context).showSnackBar(
+                const SnackBar(content: Text('Digite seu nome!')),
+              );
+              return;
+            }
+            // Salvar no ranking
+            storage.addRankingEntry(nome, storage.getXpTotal(), _level);
+            // Fecha o diálogo
+            Navigator.pop(context);
+            // Vai direto para a HomeScreen, substituindo a pilha
+            Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(builder: (_) => const HomeScreen()),
+            );
+          },
+          child: const Text('Salvar', style: TextStyle(color: Colors.blue)),
+        ),
+      ],
+    ),
+  );
+}
+
 
   void _useRemoveOne() {
     if (_removeOneCount <= 0 || _answered || _gameOver) return;
